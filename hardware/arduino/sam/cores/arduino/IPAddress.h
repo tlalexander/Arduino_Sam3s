@@ -63,7 +63,9 @@ public:
     virtual size_t printTo(Print& p) const;
 
     friend class EthernetClass;
+    #if DUE==1
     friend class UDP;
+    #endif
     friend class Client;
     friend class Server;
     friend class DhcpClass;

@@ -24,6 +24,7 @@
 
 static const uint32_t EndPoints[] =
 {
+#if DUE==1
 	EP_TYPE_CONTROL,
 
 #ifdef CDC_ENABLED
@@ -34,6 +35,7 @@ static const uint32_t EndPoints[] =
 
 #ifdef HID_ENABLED
 	EP_TYPE_INTERRUPT_IN_HID        // HID_ENDPOINT_INT
+#endif
 #endif
 };
 
@@ -66,7 +68,9 @@ const uint16_t STRING_IPRODUCT[17] = {
 #elif USB_PID == USB_PID_DUE
 	'A','r','d','u','i','n','o',' ','D','u','e',' ',' ',' ',' ',' '
 #else
+#if DUE==1
 #error "Need an USB PID"
+#endif
 #endif
 };
 
@@ -189,7 +193,7 @@ uint32_t USBD_Send(uint32_t ep, const void* d, uint32_t len)
     	TRACE_CORE(printf("pb conf\n\r");)
 		return -1;
     }
-
+    #if DUE==1
 	while (len)
 	{
         if(ep==0) n = EP0_SIZE;
@@ -201,6 +205,7 @@ uint32_t USBD_Send(uint32_t ep, const void* d, uint32_t len)
 		UDD_Send(ep & 0xF, data, n);
 		data += n;
     }
+    #endif
 	//TXLED1;					// light the TX LED
 	//TxLEDPulse = TX_RX_LED_PULSE_MS;
 	return r;
@@ -227,6 +232,7 @@ int USBD_SendControl(uint8_t flags, const void* d, uint32_t len)
 
 	if (_cmark < _cend)
 	{
+	#if DUE==1
 		while (len > 0)
 		{
 			sent = UDD_Send(EP0, data + pos, len);
@@ -234,6 +240,7 @@ int USBD_SendControl(uint8_t flags, const void* d, uint32_t len)
 			pos += sent;
 			len -= sent;
 		}
+	#endif
 	}
 
 	_cmark += length;
@@ -247,7 +254,9 @@ int USBD_SendControl(uint8_t flags, const void* d, uint32_t len)
 int USBD_RecvControl(void* d, uint32_t len)
 {
 	UDD_WaitOUT();
+#if DUE==1
 	UDD_Recv(EP0, (uint8_t*)d, len);
+#endif
 	UDD_ClearOUT();
 
 	return len;
@@ -451,6 +460,7 @@ static bool USBD_SendDescriptor(Setup& setup)
 
 static void USB_SendZlp( void )
 {
+  #if DUE==1
     while( UOTGHS_DEVEPTISR_TXINI != (UOTGHS->UOTGHS_DEVEPTISR[0] & UOTGHS_DEVEPTISR_TXINI ) )
     {
         if((UOTGHS->UOTGHS_DEVISR & UOTGHS_DEVISR_SUSP) == UOTGHS_DEVISR_SUSP)
@@ -459,11 +469,14 @@ static void USB_SendZlp( void )
         }
     }
     UOTGHS->UOTGHS_DEVEPTICR[0] = UOTGHS_DEVEPTICR_TXINIC;
+#endif
 }
 
 
 static void Test_Mode_Support( uint8_t wIndex )
 {
+#if DUE==1
+
     uint8_t i;
 	uint8_t *ptr_dest = (uint8_t *) &udd_get_endpoint_fifo_access8(2);
 
@@ -567,7 +580,9 @@ static void Test_Mode_Support( uint8_t wIndex )
 							   | UOTGHS_DEVIDR_DMA_6;
 			for(;;);
 //		break;
+
 	}
+#endif
 }
 
 
@@ -575,6 +590,7 @@ static void Test_Mode_Support( uint8_t wIndex )
 //	Endpoint 0 interrupt
 static void USB_ISR(void)
 {
+#if DUE==1
 //    printf("ISR=0x%X\n\r", UOTGHS->UOTGHS_DEVISR); // jcb
 //    if( iii++ > 1500 ) while(1); // jcb
     // End of bus reset
@@ -792,6 +808,7 @@ static void USB_ISR(void)
 			UDD_Stall();
 		}
 	}
+#endif
 }
 
 void USBD_Flush(uint32_t ep)

@@ -18,6 +18,10 @@
 
 #include "Arduino.h"
 
+#ifndef F_CPU
+  #define F_CPU 84000000
+#endif
+  
 #ifdef __cplusplus
 extern "C" {
 #endif

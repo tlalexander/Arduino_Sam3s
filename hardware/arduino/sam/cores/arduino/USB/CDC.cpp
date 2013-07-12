@@ -175,7 +175,9 @@ void Serial_::accept(void)
 	while (i != buffer->tail) {
 		uint32_t c;
 		if (!USBD_Available(CDC_RX)) {
+#if DUE==1
 			udd_ack_fifocon(CDC_RX);
+#endif
 			break;
 		}
 		c = USBD_Recv(CDC_RX);

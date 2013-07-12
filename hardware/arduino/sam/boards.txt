@@ -35,3 +35,21 @@ arduino_due_x.build.variant_system_lib=libsam_sam3x8e_gcc_rel.a
 arduino_due_x.build.vid=0x2341
 arduino_due_x.build.pid=0x003e
 
+sam3s_ek.name=Arduino SAM3S (native USB)
+sam3s_ek.upload.tool=bossac
+sam3s_ek.upload.protocol=sam-ba
+sam3s_ek.upload.maximum_size=524288
+sam3s_ek.upload.use_1200bps_touch=true
+sam3s_ek.upload.wait_for_upload_port=true
+sam3s_ek.upload.native_usb=true
+sam3s_ek.build.mcu=cortex-m3
+sam3s_ek.build.f_cpu=64000000L
+sam3s_ek.build.board=SAM_DUE
+sam3s_ek.build.core=arduino
+sam3s_ek.build.extra_flags=-D__SAM3S4C__ -mthumb -DUSB_PID={build.pid} -DUSB_VID={build.vid} -DUSBCON
+sam3s_ek.build.ldscript=linker_scripts/gcc/flash.ld
+sam3s_ek.build.variant=sam3s_ek
+sam3s_ek.build.variant_system_lib=libsam_sam3s4c_gcc_rel.a
+sam3s_ek.build.vid=0x2341
+sam3s_ek.build.pid=0x003e
+
