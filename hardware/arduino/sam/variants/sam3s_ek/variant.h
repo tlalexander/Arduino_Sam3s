@@ -27,7 +27,7 @@
 #define VARIANT_MAINOSC		12000000
 
 /** Master clock frequency */
-#define VARIANT_MCK			48000000
+#define VARIANT_MCK			64000000
 
 /*----------------------------------------------------------------------------
  *        Headers
@@ -55,8 +55,8 @@ extern "C"{
  *----------------------------------------------------------------------------*/
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT           (79u)
-
+#define PINS_COUNT           (1u)
+/*
 // LEDs
 #define PIN_LED_13           (13u)
 #define PIN_LED_RXL          (72u)
@@ -64,10 +64,11 @@ extern "C"{
 #define PIN_LED              PIN_LED_13
 #define PIN_LED2             PIN_LED_RXL
 #define PIN_LED3             PIN_LED_TXL
-
+*/
 /*
  * SPI Interfaces
  */
+ /*
 #define SPI_INTERFACES_COUNT 1
 
 #define SPI_INTERFACE        SPI0
@@ -102,10 +103,12 @@ static const uint8_t SS3  = BOARD_SPI_SS3;
 static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK  = PIN_SPI_SCK;
-
+*/
 /*
  * Wire Interfaces
  */
+
+/*
 #define WIRE_INTERFACES_COUNT 2
 
 #define PIN_WIRE_SDA         (20u)
@@ -119,10 +122,12 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define WIRE1_INTERFACE      TWI0
 #define WIRE1_INTERFACE_ID   ID_TWI0
 #define WIRE1_ISR_HANDLER    TWI0_Handler
+*/
 
 /*
  * UART/USART Interfaces
  */
+ /*
 // Serial
 #define PINS_UART            (81u)
 // Serial1
@@ -131,15 +136,15 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define PINS_USART1          (83u)
 // Serial3
 #define PINS_USART3          (84u)
-
+*/
 /*
  * USB Interfaces
  */
-#define PINS_USB             (85u)
+//#define PINS_USB             (85u)
 
 /*
- * Analog pins
- */
+
+ 
 static const uint8_t A0  = 54;
 static const uint8_t A1  = 55;
 static const uint8_t A2  = 56;
@@ -158,9 +163,8 @@ static const uint8_t CANRX = 68;
 static const uint8_t CANTX = 69;
 #define ADC_RESOLUTION		12
 
-/*
- * Complementary CAN pins
- */
+
+ 
 static const uint8_t CAN1RX = 88;
 static const uint8_t CAN1TX = 89;
 
@@ -170,18 +174,16 @@ static const uint8_t CAN1TX = 89;
 #define PINS_CAN1            (91u)
 
 
-/*
- * DACC
- */
+
+
 #define DACC_INTERFACE		DACC
 #define DACC_INTERFACE_ID	ID_DACC
 #define DACC_RESOLUTION		12
 #define DACC_ISR_HANDLER    DACC_Handler
 #define DACC_ISR_ID         DACC_IRQn
 
-/*
- * PWM
- */
+
+ 
 #define PWM_INTERFACE		PWM
 #define PWM_INTERFACE_ID	ID_PWM
 #define PWM_FREQUENCY		1000
@@ -189,15 +191,15 @@ static const uint8_t CAN1TX = 89;
 #define PWM_MIN_DUTY_CYCLE	0
 #define PWM_RESOLUTION		8
 
-/*
- * TC
- */
+
 #define TC_INTERFACE        TC0
 #define TC_INTERFACE_ID     ID_TC0
 #define TC_FREQUENCY        1000
 #define TC_MAX_DUTY_CYCLE   255
 #define TC_MIN_DUTY_CYCLE   0
 #define TC_RESOLUTION		8
+
+*/
 
 #ifdef __cplusplus
 }

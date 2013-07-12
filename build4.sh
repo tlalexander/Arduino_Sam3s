@@ -1,8 +1,8 @@
 #!/bin/bash             
 
-cd /Users/taylor/Dropbox/ArduinoDev/workspace/hardware/arduino/sam/system/libsam/build_gcc
+cd /Users/taylor/Dropbox/ArduinoDev/workspace/build
 
-make clean
+ant clean
 
-make
+ant
 

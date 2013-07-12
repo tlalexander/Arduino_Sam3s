@@ -135,25 +135,25 @@ $(VARIANT): create_output $(OUTPUT_LIB)
 .PHONY: create_output
 create_output:
 	@echo ------------------------------------------------------------------------------------
-	@echo -------------------------
+	@echo ------------SAM3SBUILD-------------
 	@echo --- Preparing variant $(VARIANT) files in $(OUTPUT_PATH) $(OUTPUT_BIN)
 	@echo -------------------------
-#	@echo *$(INCLUDES)
-#	@echo -------------------------
-#	@echo *$(C_SRC)
-#	@echo -------------------------
-#	@echo *$(C_OBJ)
-#	@echo -------------------------
-#	@echo *$(addprefix $(OUTPUT_PATH)/, $(C_OBJ))
-#	@echo -------------------------
-#	@echo *$(CPP_SRC)
-#	@echo -------------------------
-#	@echo *$(CPP_OBJ)
-#	@echo -------------------------
-#	@echo *$(addprefix $(OUTPUT_PATH)/, $(CPP_OBJ))
-#	@echo -------------------------
-#	@echo *$(A_SRC)
-#	@echo -------------------------
+	@echo *$(INCLUDES)
+	@echo -------------------------
+	@echo *$(C_SRC)
+	@echo -------------------------
+	@echo *$(C_OBJ)
+	@echo -------------------------
+	@echo *$(addprefix $(OUTPUT_PATH)/, $(C_OBJ))
+	@echo -------------------------
+	@echo *$(CPP_SRC)
+	@echo -------------------------
+	@echo *$(CPP_OBJ)
+	@echo -------------------------
+	@echo *$(addprefix $(OUTPUT_PATH)/, $(CPP_OBJ))
+	@echo -------------------------
+	@echo *$(A_SRC)
+	@echo -------------------------
 
 	-@mkdir $(OUTPUT_PATH) 1>NUL 2>&1
 	@echo ------------------------------------------------------------------------------------
@@ -181,4 +181,3 @@ clean:
 	-@$(RM) $(OUTPUT_PATH) 1>NUL 2>&1
 	-@$(RM) $(OUTPUT_BIN)/$(OUTPUT_LIB) 1>NUL 2>&1
 	@echo ------------------------------------------------------------------------------------
-
