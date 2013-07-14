@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"VA",
+				"VARIANT_PATH"
+			],
+			[
 				"BYTE",
 				"BYTECAPTURE"
 			]
@@ -15,7 +19,7 @@
 			"file": "test.mk",
 			"settings":
 			{
-				"buffer_size": 9092,
+				"buffer_size": 9038,
 				"line_ending": "Unix"
 			}
 		},
@@ -23,7 +27,7 @@
 			"file": "Makefile",
 			"settings":
 			{
-				"buffer_size": 4659,
+				"buffer_size": 4656,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,7 +136,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -140,24 +144,24 @@
 					"file": "test.mk",
 					"settings":
 					{
-						"buffer_size": 9092,
+						"buffer_size": 9038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								995,
+								995
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax": "Packages/Makefile/Makefile.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 183.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -167,15 +171,15 @@
 					"file": "Makefile",
 					"settings":
 					{
-						"buffer_size": 4659,
+						"buffer_size": 4656,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1075,
+								1088
 							]
 						],
 						"settings":
@@ -183,7 +187,7 @@
 							"syntax": "Packages/Makefile/Makefile.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -200,13 +204,13 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								980,
+								980
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -226,8 +230,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								625,
+								625
 							]
 						],
 						"settings":

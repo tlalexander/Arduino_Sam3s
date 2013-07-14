@@ -1,0 +1,9 @@
+
+variant.o:
+         U SystemCoreClock
+         U SystemInit
+         U WDT_Disable
+         U __libc_init_array
+         U digitalWrite
+00000000 R g_APinDescription
+00000000 T init
