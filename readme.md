@@ -3,21 +3,49 @@ Arduino for Sam3s
 
 This is a project to get Arduino working with the Sam3s4 CPU and the other CPUs in that family.
 Currently we are tagreting the Olimex SAM3-P256 development kit.
+https://www.olimex.com/Products/ARM/Atmel/SAM3-P256/
 
-the /build/macosx/work folder contains a runnable macos .app, which can be used to test current functionality.
+The /build/macosx/work folder contains a runnable macos .app, which can be used to test current functionality.
 There is also a mac alias to that in the main folder.
 
-===Building
-there are some simple build scripts in the main directory, they just need the paths changed. Each numbered script is just the build command for each step, so that should probably just be put into
+Building
+--------
+there are some simple build scripts in the main directory, they just need the paths changed. Each numbered script is just the build command for each step (steps 2 3 and 4 from the original build instructions below), so that should probably just be put into one script.
 
 build.sh builds the whole chain, though build4.sh may need to be re-run after manually copying the file listed in the Todo, if that issue is still present
 
-==Todo:
+Todo
+----
 The file libvariant_sam3s_ek_gcc_rel.a may not be properly getting copied from:
 /hardware/arduino/sam/variants
 to:
 /hardware/arduino/sam/cores/arduino/
 It may not be an issue anymore
+
+
+Programming
+-----------
+
+Arduino is now using the SAM-BA bootloader built into the Atmel SAM processors for programming. The chip only presents that interface when erased however. Arduino accomplishes this by erasing the chip when an application attempts to connect to the USB serial port for a short period of time at 1200bps.
+
+The Olimex dev board ships with a demo application that doesn't include this auto-erase feature, so it will need to be erased over JTAG or by following the erase instructions in the manual:
+https://www.olimex.com/Products/ARM/Atmel/SAM3-P256/resources/SAM3-P256.pdf
+
+SAM-BA can be enabled by erasing the chip manually:
+
+1.Power down the ATSAM3S4BA-AU
+2.Short ATSAM3S4BA-AU pin 55 (PB12/ERASE) with 3.3V (you may do this by 
+shorting R20, though PB12 is broken out to the proto space, so adding an erase button may be helpful)
+3.Power up the ATSAM3S4BA-AU
+4.Power down the ATSAM3S4BA-AU
+5.Remove the short between ATSAM3S4BA-AU and 3.3V (R20)
+6.Power up the ATSAM3S4BA-AU
+Note: For programming via COM port, you must set jumpers RXD0/DRXD and TXD0/DTXD, 
+according to jumpers description above, and the USB should not be plugged in.
+
+After the chip has been erased, the Arduino IDE can be used to program the chip, but until we get USB-CDC working, the chip will need to be manually erased every time it needs to be reprogrammed from Arduino.
+
+
 
 
 Original build instructions
