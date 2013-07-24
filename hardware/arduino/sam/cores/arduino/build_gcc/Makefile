@@ -24,7 +24,7 @@ VARIANTS = sam3s_ek
 #sam3u_ek 
 endif
 
-SUBMAKE_OPTIONS=--no-builtin-rules --no-builtin-variables --no-print-directory
+SUBMAKE_OPTIONS=--no-builtin-rules --no-builtin-variables --no-print-directory 
 
 #-------------------------------------------------------------------------------
 # Rules

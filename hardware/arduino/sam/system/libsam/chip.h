@@ -63,6 +63,9 @@
 #include "include/wdt.h"
 
 #include "include/timetick.h"
+#if defined __SAM3S4B__
+#include "include/udp.h"
+#endif
 #include "include/USB_device.h"
 #include "include/USB_host.h"
 
@@ -72,6 +75,8 @@
 #include "include/trng.h"
 #include "include/uotghs_device.h"
 #include "include/uotghs_host.h"
+
+
 #endif /* (SAM3XA_SERIES) */
 
 #endif /* _LIB_SAM_ */

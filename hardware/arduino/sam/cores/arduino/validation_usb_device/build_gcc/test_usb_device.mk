@@ -26,7 +26,7 @@ ifeq ("$(VARIANT)", "")
 endif
 
 ifeq ("$(VARIANT)", "sam3s_ek")
-CHIP=__SAM3S4C__
+CHIP=__SAM3S4B__
 VARIANT_PATH = ../../../../atmel/sam/variants/$(VARIANT)
 else ifeq ("$(VARIANT)", "sam3u_ek")
 CHIP=__SAM3U4E__
@@ -46,6 +46,9 @@ TOOLCHAIN=gcc
 PROJECT_BASE_PATH = ./..
 SYSTEM_PATH = ../../../../system
 
+ifeq ($(CHIP), __SAM3S4B__)
+CHIP_NAME=sam3s4b
+CHIP_SERIE=sam3s
 ifeq ($(CHIP), __SAM3S4C__)
 CHIP_NAME=sam3s4c
 CHIP_SERIE=sam3s

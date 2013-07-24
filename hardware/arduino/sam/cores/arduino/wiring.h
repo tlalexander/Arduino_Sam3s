@@ -62,7 +62,6 @@ extern void delay( uint32_t dwMs ) ;
  *
  * \param dwUs the number of microseconds to pause (uint32_t)
  */
- /*
 static inline void delayMicroseconds(uint32_t) __attribute__((always_inline, unused));
 static inline void delayMicroseconds(uint32_t usec){
     uint32_t n = usec * (VARIANT_MCK / 3000000);
@@ -72,7 +71,7 @@ static inline void delayMicroseconds(uint32_t usec){
         "bge    L_%=_delayMicroseconds" "\n"
         : "+r" (n) :
     );
-}*/
+}
 
 #ifdef __cplusplus
 }

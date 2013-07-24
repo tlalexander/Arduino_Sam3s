@@ -175,9 +175,9 @@ void Serial_::accept(void)
 	while (i != buffer->tail) {
 		uint32_t c;
 		if (!USBD_Available(CDC_RX)) {
-#if DUE==1
+			#if defined __SAM3X8E__ || defined __SAM3X8H__
 			udd_ack_fifocon(CDC_RX);
-#endif
+			#endif
 			break;
 		}
 		c = USBD_Recv(CDC_RX);

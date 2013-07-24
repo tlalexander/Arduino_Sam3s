@@ -27,7 +27,8 @@
 #define VARIANT_MAINOSC		12000000
 
 /** Master clock frequency */
-#define VARIANT_MCK			64000000
+#define VARIANT_MCK     64000000
+#define F_CPU     VARIANT_MCK
 
 /*----------------------------------------------------------------------------
  *        Headers
@@ -55,7 +56,7 @@ extern "C"{
  *----------------------------------------------------------------------------*/
 
 // Number of pins defined in PinDescription array
-#define PINS_COUNT           (1u)
+#define PINS_COUNT           (62)
 /*
 // LEDs
 #define PIN_LED_13           (13u)
@@ -71,21 +72,21 @@ extern "C"{
  
 #define SPI_INTERFACES_COUNT 1
 
-#define SPI_INTERFACE        SPI0
-#define SPI_INTERFACE_ID     ID_SPI0
+#define SPI_INTERFACE        SPI
+#define SPI_INTERFACE_ID     ID_SPI
 #define SPI_CHANNELS_NUM 4
-#define PIN_SPI_SS0          (77u)
-#define PIN_SPI_SS1          (87u)
-#define PIN_SPI_SS2          (86u)
-#define PIN_SPI_SS3          (78u)
-#define PIN_SPI_MOSI         (75u)
-#define PIN_SPI_MISO         (74u)
-#define PIN_SPI_SCK          (76u)
-#define BOARD_SPI_SS0        (10u)
-#define BOARD_SPI_SS1        (4u)
-#define BOARD_SPI_SS2        (52u)
-#define BOARD_SPI_SS3        PIN_SPI_SS3
-#define BOARD_SPI_DEFAULT_SS BOARD_SPI_SS3
+#define PIN_SPI_SS0          (51u)
+#define PIN_SPI_SS1          (60u)
+#define PIN_SPI_SS2          (61u)
+#define PIN_SPI_SS3          (52u)
+#define PIN_SPI_MOSI         (49u)
+#define PIN_SPI_MISO         (48u)
+#define PIN_SPI_SCK          (50u)
+#define BOARD_SPI_SS0        (24u)
+#define BOARD_SPI_SS1        (25u)
+#define BOARD_SPI_SS2        (26u)
+#define BOARD_SPI_SS3        PIN_SPI_SS0
+#define BOARD_SPI_DEFAULT_SS BOARD_SPI_SS0
 
 #define BOARD_PIN_TO_SPI_PIN(x) \
 	(x==BOARD_SPI_SS0 ? PIN_SPI_SS0 : \
@@ -117,8 +118,8 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define WIRE_INTERFACE_ID    ID_TWI1
 #define WIRE_ISR_HANDLER     TWI1_Handler
 
-#define PIN_WIRE1_SDA        (70u)
-#define PIN_WIRE1_SCL        (71u)
+#define PIN_WIRE1_SDA        (42u)
+#define PIN_WIRE1_SCL        (43u)
 #define WIRE1_INTERFACE      TWI0
 #define WIRE1_INTERFACE_ID   ID_TWI0
 #define WIRE1_ISR_HANDLER    TWI0_Handler
@@ -129,50 +130,38 @@ static const uint8_t SCK  = PIN_SPI_SCK;
  */
  
 // Serial
-#define PINS_UART            (81u)
+#define PINS_UART0            (55u)
 // Serial1
-#define PINS_USART0          (82u)
+#define PINS_UART1            (56u)
 // Serial2
-#define PINS_USART1          (83u)
+#define PINS_USART0          (57u)
 // Serial3
-#define PINS_USART3          (84u)
+#define PINS_USART1          (58u)
 
 /*
  * USB Interfaces
  */
-//#define PINS_USB             (85u)
+#define PINS_USB             (59u)
 
 
 
  
-static const uint8_t A0  = 54;
-static const uint8_t A1  = 55;
-static const uint8_t A2  = 56;
-static const uint8_t A3  = 57;
-static const uint8_t A4  = 58;
-static const uint8_t A5  = 59;
-static const uint8_t A6  = 60;
-static const uint8_t A7  = 61;
-static const uint8_t A8  = 62;
-static const uint8_t A9  = 63;
-static const uint8_t A10 = 64;
-static const uint8_t A11 = 65;
-static const uint8_t DAC0 = 66;
-static const uint8_t DAC1 = 67;
-static const uint8_t CANRX = 68;
-static const uint8_t CANTX = 69;
+static const uint8_t A0  = 29;
+static const uint8_t A1  = 30;
+static const uint8_t A2  = 31;
+static const uint8_t A3  = 32;
+static const uint8_t A4  = 33;
+static const uint8_t A5  = 34;
+static const uint8_t A6  = 35;
+static const uint8_t A7  = 36;
+static const uint8_t A8  = 37;
+static const uint8_t A9  = 38;
+static const uint8_t A10 = 39;
+static const uint8_t A11 = 40;
+static const uint8_t A12 = 41;
+static const uint8_t DAC0 = 42;
+static const uint8_t DAC1 = 43;
 #define ADC_RESOLUTION		12
-
-
- 
-static const uint8_t CAN1RX = 88;
-static const uint8_t CAN1TX = 89;
-
-// CAN0
-#define PINS_CAN0            (90u)
-// CAN1
-#define PINS_CAN1            (91u)
-
 
 
 
@@ -212,7 +201,7 @@ static const uint8_t CAN1TX = 89;
 #ifdef __cplusplus
 
 extern UARTClass Serial;
-extern USARTClass Serial1;
+extern UARTClass Serial1;
 extern USARTClass Serial2;
 extern USARTClass Serial3;
 

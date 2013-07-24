@@ -2,14 +2,13 @@
 WInterrupts.o:
 00000000 T PIOA_Handler
 00000000 T PIOB_Handler
-00000000 T PIOC_Handler
 00000000 T attachInterrupt
 00000000 b callbacksPioA
 00000000 b callbacksPioB
 00000000 b callbacksPioC
 00000000 b callbacksPioD
 00000000 T detachInterrupt
-00000000 b enabled.8082
+00000000 b enabled.8706
          U g_APinDescription
          U pmc_enable_periph_clk
 
@@ -92,7 +91,7 @@ syscalls_sam3.o:
 00000000 T _read
 00000000 T _sbrk
 00000000 T _write
-00000000 b heap.5981
+00000000 b heap.6223
          U iprintf
 00000000 T link
 
@@ -119,6 +118,11 @@ wiring_analog.o:
          U TC_Start
 00000000 d _readResolution
 00000000 d _writeResolution
+         U adc_disable_channel
+         U adc_enable_channel
+         U adc_get_latest_value
+         U adc_get_status
+         U adc_start
 00000000 T analogOutputInit
 00000000 T analogRead
 00000000 T analogReadResolution
@@ -126,10 +130,10 @@ wiring_analog.o:
 00000000 T analogWrite
 00000000 T analogWriteResolution
 00000000 B analog_reference
-00000000 r channelToAB.8120
-00000000 r channelToChNo.8119
-00000000 r channelToId.8122
-00000000 r channelToTC.8121
+00000000 r channelToAB.8761
+00000000 r channelToChNo.8760
+00000000 r channelToId.8763
+00000000 r channelToTC.8762
          U dacc_enable_channel
          U dacc_get_channel_status
          U dacc_get_interrupt_status
@@ -541,64 +545,33 @@ CDC.o:
          U millis
 
 HID.o:
-00000000 B Keyboard
-00000000 B Mouse
-00000000 t _GLOBAL__sub_I_Mouse
-00000000 W _Z14HID_SendReporthPKvm
-00000000 W _Z16HID_GetInterfacePh
-         U _Z16USBD_SendControlhPKvm
-00000000 W _Z17HID_GetDescriptori
-00000000 W _Z9HID_SetupR5Setup
-         U _Z9USBD_SendmPKvm
-         U _ZN5Print5writeEPKhj
-00000000 T _ZN6Mouse_3endEv
-00000000 T _ZN6Mouse_4moveEaaa
-00000000 T _ZN6Mouse_5beginEv
-00000000 T _ZN6Mouse_5clickEh
-00000000 T _ZN6Mouse_5pressEh
-00000000 T _ZN6Mouse_7buttonsEh
-00000000 T _ZN6Mouse_7releaseEh
-00000000 T _ZN6Mouse_9isPressedEh
-00000000 T _ZN6Mouse_C1Ev
-00000000 T _ZN6Mouse_C2Ev
-00000000 T _ZN9Keyboard_10releaseAllEv
-00000000 T _ZN9Keyboard_10sendReportEP9KeyReport
-00000000 T _ZN9Keyboard_3endEv
-00000000 T _ZN9Keyboard_5beginEv
-00000000 T _ZN9Keyboard_5pressEh
-00000000 T _ZN9Keyboard_5writeEh
-00000000 T _ZN9Keyboard_7releaseEh
-00000000 T _ZN9Keyboard_C1Ev
-00000000 T _ZN9Keyboard_C2Ev
-         U _ZTI5Print
-00000000 R _ZTI9Keyboard_
-00000000 R _ZTS9Keyboard_
-00000000 R _ZTV9Keyboard_
-         U _ZTVN10__cxxabiv120__si_class_type_infoE
-         U __aeabi_unwind_cpp_pr0
-         U __aeabi_unwind_cpp_pr1
-00000000 R _asciimap
-00000000 R _hidInterface
-00000000 R _hidReportDescriptor
-00000000 D _hid_idle
-00000000 D _hid_protocol
 
 USBCore.o:
 00000000 B RxLEDPulse
-00000000 R STRING_IMANUFACTURER
-00000000 R STRING_IPRODUCT
 00000000 R STRING_LANGUAGE
+00000000 R STRING_MANUFACTURER
+00000000 R STRING_PRODUCT
 00000000 B TxLEDPulse
          U UDD_Attach
+         U UDD_ClearIN
          U UDD_ClearOUT
+         U UDD_ClearSetupInt
          U UDD_Detach
          U UDD_FifoByteCount
          U UDD_GetFrameNumber
          U UDD_Init
+         U UDD_InitEndpoints
+         U UDD_ReceivedSetupInt
+         U UDD_Recv
          U UDD_Recv8
          U UDD_ReleaseRX
          U UDD_ReleaseTX
+         U UDD_Send
+         U UDD_Send8
+         U UDD_SetAddress
          U UDD_SetStack
+         U UDD_Stall
+         U UDD_WaitIN
          U UDD_WaitOUT
 00000000 B USBDevice
 00000000 R USB_DeviceDescriptor
@@ -608,7 +581,6 @@ USBCore.o:
 00000000 T _Z14USBD_Availablem
 00000000 T _Z14USBD_Connectedv
          U _Z16CDC_GetInterfacePh
-         U _Z16HID_GetInterfacePh
 00000000 T _Z16USBD_InitControli
 00000000 T _Z16USBD_RecvControlPvm
 00000000 T _Z16USBD_SendControlhPKvm
@@ -617,11 +589,15 @@ USBCore.o:
 00000000 T _Z24USBD_SendOtherInterfacesv
 00000000 T _Z26USBD_ClassInterfaceRequestR5Setup
          U _Z9CDC_SetupR5Setup
-         U _Z9HID_SetupR5Setup
 00000000 T _Z9USBD_Recvm
 00000000 T _Z9USBD_RecvmPvm
 00000000 T _Z9USBD_SendmPKvm
+00000000 b _ZL14isEndpointHalt
+00000000 r _ZL19USB_DeviceQualifier
+00000000 b _ZL21isRemoteWakeUpEnabled
+00000000 t _ZL24USB_SendStringDescriptorPKhi
 00000000 t _ZL7USB_ISRv
+00000000 r _ZL9EndPoints
 00000000 T _ZN10USBDevice_10configuredEv
 00000000 T _ZN10USBDevice_4pollEv
 00000000 T _ZN10USBDevice_6attachEv
@@ -643,3 +619,4 @@ USBCore.o:
 00000000 B _usbSetInterface
          U delay
          U g_interrupt_enabled
+         U memset

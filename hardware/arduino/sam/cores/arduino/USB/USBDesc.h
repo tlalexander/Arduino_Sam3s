@@ -18,7 +18,9 @@
 #define __USBDESC_H__
 
 #define CDC_ENABLED
+#if defined __SAM3X8E__ || defined __SAM3X8H__
 #define HID_ENABLED
+#endif
 
 #ifdef CDC_ENABLED
 #define CDC_INTERFACE_COUNT	2

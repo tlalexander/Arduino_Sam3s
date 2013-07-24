@@ -27,7 +27,7 @@
  * ----------------------------------------------------------------------------
  */
 
-#ifndef UDPHS_H_INCLUDED
-#define UDPHS_H_INCLUDED
+#ifndef UDP_H_INCLUDED
+#define UDP_H_INCLUDED
 
-#endif /* UDPHS_H_INCLUDED */
+#endif /* UDP_H_INCLUDED */

@@ -47,8 +47,8 @@ OUTPUT_BIN = ../../../cores/arduino
 PROJECT_BASE_PATH = ..
 CMSIS_ROOT_PATH = $(PROJECT_BASE_PATH)/../CMSIS
 
-ifeq ($(CHIP), __SAM3S4C__)
-CHIP_NAME=sam3s4c
+ifeq ($(CHIP), __SAM3S4B__)
+CHIP_NAME=sam3s4b
 CHIP_SERIE=sam3s
 else ifeq ($(CHIP), __SAM3U4E__)
 CHIP_NAME=sam3u4e

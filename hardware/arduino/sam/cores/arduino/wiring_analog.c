@@ -129,7 +129,7 @@ uint32_t analogRead(uint32_t ulPin)
 	}
 #endif
 
-#if defined __SAM3X8E__ || defined __SAM3X8H__
+#if defined __SAM3X8E__ || defined __SAM3X8H__ || defined __SAM3S4B__
 	switch ( g_APinDescription[ulPin].ulAnalogChannel )
 	{
 		// Handling ADC 12 bits channels
@@ -292,8 +292,8 @@ void analogWrite(uint32_t ulPin, uint32_t ulValue) {
 		static const uint32_t channelToAB[]   = { 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0 };
 		static const Tc *channelToTC[] = {
 			TC0, TC0, TC0, TC0, TC0, TC0,
+			#if defined __SAM3X8E__ || defined __SAM3X8H__
 			TC1, TC1, TC1, TC1, TC1, TC1,
-			#if DUE==1
 			TC2, TC2, TC2, TC2, TC2, TC2 
 			#endif
 		};

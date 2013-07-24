@@ -47,13 +47,15 @@ static void __initialize() {
 	NVIC_SetPriority(PIOB_IRQn, 0);
 	NVIC_EnableIRQ(PIOB_IRQn);
 
+#if defined __SAM3X8E__ || defined __SAM3X8H__
+
 	pmc_enable_periph_clk(ID_PIOC);
 	NVIC_DisableIRQ(PIOC_IRQn);
 	NVIC_ClearPendingIRQ(PIOC_IRQn);
 	NVIC_SetPriority(PIOC_IRQn, 0);
 	NVIC_EnableIRQ(PIOC_IRQn);
 
-#if DUE==1
+
 	pmc_enable_periph_clk(ID_PIOD);
 	NVIC_DisableIRQ(PIOD_IRQn);
 	NVIC_ClearPendingIRQ(PIOD_IRQn);
@@ -86,9 +88,9 @@ void attachInterrupt(uint32_t pin, void (*callback)(void), uint32_t mode)
 		callbacksPioA[pos] = callback;
 	if (pio == PIOB)
 		callbacksPioB[pos] = callback;
+#if defined __SAM3X8E__ || defined __SAM3X8H__
 	if (pio == PIOC)
 		callbacksPioC[pos] = callback;
-#if DUE==1
 	if (pio == PIOD)
 		callbacksPioD[pos] = callback;
 #endif
@@ -160,6 +162,7 @@ void PIOB_Handler(void) {
 	}
 }
 
+#if defined __SAM3X8E__ || defined __SAM3X8H__
 void PIOC_Handler(void) {
 	uint32_t isr = PIOC->PIO_ISR;
 	uint32_t i;
@@ -171,7 +174,6 @@ void PIOC_Handler(void) {
 	}
 }
 
-#if DUE==1
 void PIOD_Handler(void) {
 	uint32_t isr = PIOD->PIO_ISR;
 	uint32_t i;

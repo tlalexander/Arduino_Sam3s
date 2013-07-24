@@ -19,11 +19,10 @@
 # Makefile for compiling libArduino
 .SUFFIXES: .o .a .c .s
 
-CHIP=__SAM3S4C__
+CHIP=__SAM3S4B__
 VARIANT=sam3s_ek
 LIBNAME=libarduino_$(VARIANT)
 TOOLCHAIN=gcc
-
 
 
 #-------------------------------------------------------------------------------
@@ -42,6 +41,7 @@ CMSIS_ARM_PATH=$(CMSIS_ROOT_PATH)/CMSIS/Include
 CMSIS_ATMEL_PATH=$(CMSIS_ROOT_PATH)/Device/ATMEL
 CMSIS_CHIP_PATH=$(CMSIS_ROOT_PATH)/Device/ATMEL/$(CHIP_SERIE)
 VARIANT_PATH = ../../../../../arduino/sam/variants/$(VARIANT)
+
 
 #-------------------------------------------------------------------------------
 # Files
@@ -77,6 +77,8 @@ include $(TOOLCHAIN).mk
 
 CFLAGS += -DUSB_VID=0x2341 -DUSB_PID=0xcafe
 CPPFLAGS += -DUSB_VID=0x2341 -DUSB_PID=0xcafe
+
+CFLAGS += -std=gnu99
 
 #-------------------------------------------------------------------------------
 ifdef DEBUG

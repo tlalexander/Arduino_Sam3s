@@ -30,6 +30,7 @@
 
 #include "syscalls.h"
 
+
 #include <stdio.h>
 #include <stdarg.h>
 #include "sam.h"
@@ -109,19 +110,17 @@ extern int _write( int file, char *ptr, int len )
 //    for ( ; *ptr != 0 ; ptr++ )
     for ( iIndex=0 ; iIndex < len ; iIndex++, ptr++ )
     {
-      #if DUE==1
 //        UART_PutChar( *ptr ) ;
+
 		// Check if the transmitter is ready
-		  while ((UART->UART_SR & UART_SR_TXRDY) != UART_SR_TXRDY);
-      
+		  while ((UART0->UART_SR & UART_SR_TXRDY) != UART_SR_TXRDY)
+			;
+
 		  // Send character
-		  UART->UART_THR = *ptr;
-      #endif
+		  UART0->UART_THR = *ptr;
     }
 
     return iIndex ;
-
-
 }
 
 extern void _exit( int status )

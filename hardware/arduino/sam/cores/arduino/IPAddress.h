@@ -63,7 +63,7 @@ public:
     virtual size_t printTo(Print& p) const;
 
     friend class EthernetClass;
-    #if DUE==1
+    #if defined __SAM3X8E__ || defined __SAM3X8H__
     friend class UDP;
     #endif
     friend class Client;
