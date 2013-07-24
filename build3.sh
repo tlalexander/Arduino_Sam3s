@@ -7,9 +7,9 @@ make clean
 make
 
 
-cd /Users/taylor/Dropbox/ArduinoDev/workspace/hardware/arduino/sam/variants/arduino_due_x/build_gcc
+#cd /Users/taylor/Dropbox/ArduinoDev/workspace/hardware/arduino/sam/variants/arduino_due_x/build_gcc
 
-make clean
+#make clean
 
-make
+#make
 

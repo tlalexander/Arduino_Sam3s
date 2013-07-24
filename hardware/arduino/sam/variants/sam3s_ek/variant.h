@@ -68,7 +68,7 @@ extern "C"{
 /*
  * SPI Interfaces
  */
- /*
+ 
 #define SPI_INTERFACES_COUNT 1
 
 #define SPI_INTERFACE        SPI0
@@ -103,12 +103,12 @@ static const uint8_t SS3  = BOARD_SPI_SS3;
 static const uint8_t MOSI = PIN_SPI_MOSI;
 static const uint8_t MISO = PIN_SPI_MISO;
 static const uint8_t SCK  = PIN_SPI_SCK;
-*/
+
 /*
  * Wire Interfaces
  */
 
-/*
+
 #define WIRE_INTERFACES_COUNT 2
 
 #define PIN_WIRE_SDA         (20u)
@@ -122,12 +122,12 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define WIRE1_INTERFACE      TWI0
 #define WIRE1_INTERFACE_ID   ID_TWI0
 #define WIRE1_ISR_HANDLER    TWI0_Handler
-*/
+
 
 /*
  * UART/USART Interfaces
  */
- /*
+ 
 // Serial
 #define PINS_UART            (81u)
 // Serial1
@@ -136,13 +136,13 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 #define PINS_USART1          (83u)
 // Serial3
 #define PINS_USART3          (84u)
-*/
+
 /*
  * USB Interfaces
  */
 //#define PINS_USB             (85u)
 
-/*
+
 
  
 static const uint8_t A0  = 54;
@@ -199,7 +199,7 @@ static const uint8_t CAN1TX = 89;
 #define TC_MIN_DUTY_CYCLE   0
 #define TC_RESOLUTION		8
 
-*/
+
 
 #ifdef __cplusplus
 }

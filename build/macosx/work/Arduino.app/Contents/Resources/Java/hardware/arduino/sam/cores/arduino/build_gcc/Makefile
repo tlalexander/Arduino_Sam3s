@@ -17,7 +17,8 @@
 #
 
 ifeq ("$(VARIANTS)", "")
-VARIANTS = sam3s_ek arduino_due_x
+VARIANTS = sam3s_ek
+#arduino_due_x
 #sam3x_ek adk2 sam3s_ek
 #VARIANTS =  
 #sam3u_ek 

@@ -35,12 +35,12 @@ extern const PinDescription g_APinDescription[]=
 { PIOA,PIO_PA0,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA1,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA2,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
-{ PIOA,PIO_PA3,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER }//,
-/*{ PIOA,PIO_PA4,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
+{ PIOA,PIO_PA3,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
+{ PIOA,PIO_PA4,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA5,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA6,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA7,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
-{ PIOA,PIO_PA8,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
+/*{ PIOA,PIO_PA8,             ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA9B_NPCS1,      ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA10,            ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
 { PIOA,PIO_PA11,            ID_PIOA, PIO_PERIPH_A, PIO_DEFAULT, PIN_ATTR_DIGITAL,                           NO_ADC, NO_ADC, NOT_ON_PWM,  NOT_ON_TIMER },
@@ -125,7 +125,7 @@ extern const PinDescription g_APinDescription[]=
  
 RingBuffer rx_buffer1;
 
-//UARTClass Serial(UART, UART_IRQn, ID_UART, &rx_buffer1);
+UARTClass Serial(UART, UART_IRQn, ID_UART, &rx_buffer1);
 void serialEvent() __attribute__((weak));
 void serialEvent() { }
 
@@ -136,7 +136,7 @@ void UART_Handler(void)
 }
 
 // ----------------------------------------------------------------------------
-/*
+
 
 RingBuffer rx_buffer2;
 RingBuffer rx_buffer3;

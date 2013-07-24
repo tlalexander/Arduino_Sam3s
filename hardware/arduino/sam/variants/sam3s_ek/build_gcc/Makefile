@@ -28,7 +28,7 @@ all: sam3s_ek
 sam3s_ek:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Making variant sam3s_ek
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk
 	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk
 	@echo ------------------------------------------------------------------------------------
 
@@ -36,7 +36,7 @@ sam3s_ek:
 clean:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Cleaning variant sam3s_ek
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk $@
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk $@
 	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_sam3s_ek.mk $@
 	@echo ------------------------------------------------------------------------------------
 

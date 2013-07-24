@@ -1,0 +1,1899 @@
+Archive member included because of file (symbol)
+
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                              debug_sam3s_ek/test.o (__aeabi_unwind_cpp_pr0)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o) (restore_core_regs)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o) (abort)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o) (memcpy)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o) (raise)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o) (_kill_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o) (_impure_ptr)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o) (_malloc_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o) (errno)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o) (_free_r)
+../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+                              (Reset_Handler)
+../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o) (_sbrk)
+../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+                              debug_sam3s_ek/test.o (delay)
+../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+                              debug_sam3s_ek/test.o (pinMode)
+../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                              ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o) (main)
+../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o) (yield)
+../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(main.o) (init)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+                              ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o) (__libc_init_array)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o) (iprintf)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o) (_vfiprintf_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (__swsetup_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (_fflush_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o) (__sinit)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (_fwalk)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o) (__locale_mb_cur_max)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o) (__smakebuf_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (memchr)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (memmove)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (memset)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o) (_realloc_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (__sread)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o) (strcmp)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (strlen)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o) (__swbuf_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o) (__wctomb)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_write_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_close_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o) (fclose)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_fstat_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o) (_isatty_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_lseek_r)
+/Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o) (_read_r)
+../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o) (PIO_PullUp)
+../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o) (pmc_enable_periph_clk)
+../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+                              ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o) (GetTickCount)
+../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+                              ../../libvariant_sam3s_ek_gcc_rel.a(variant.o) (WDT_Disable)
+../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+                              ../../libvariant_sam3s_ek_gcc_rel.a(variant.o) (SystemInit)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o) (__aeabi_uldivmod)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o) (__divdi3)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o) (__udivdi3)
+/Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o) (__aeabi_uidiv)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .data          0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .text          0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .data          0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .bss           0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .ARM.extab.text.setup
+                0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .ARM.extab.text._ZL9led_step1v
+                0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .ARM.extab.text._ZL9led_step2v
+                0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .ARM.extab.text.loop
+                0x0000000000000000        0x0 debug_sam3s_ek/test.o
+ .rodata        0x0000000000000000       0x19 debug_sam3s_ek/test.o
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_info    0x0000000000000000     0x1d23 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_abbrev  0x0000000000000000      0x482 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_loc     0x0000000000000000     0x1879 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_ranges  0x0000000000000000      0x160 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_line    0x0000000000000000      0x59c /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_str     0x0000000000000000      0xba9 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .debug_frame   0x0000000000000000      0x2a0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x0000000000000000       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .debug_line    0x0000000000000000       0xbc /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .debug_info    0x0000000000000000       0xc4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .debug_abbrev  0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_info    0x0000000000000000      0xa5a /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_abbrev  0x0000000000000000      0x25d /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_loc     0x0000000000000000      0x693 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_ranges  0x0000000000000000       0x50 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_line    0x0000000000000000      0x1e9 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_str     0x0000000000000000      0x508 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .debug_frame   0x0000000000000000       0xe8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x0000000000000000       0x2c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text._signal_r
+                0x0000000000000000       0x30 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x0000000000000000       0x4a /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text.signal   0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text._init_signal
+                0x0000000000000000        0xc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x0000000000000000       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text._wrapup_reent
+                0x0000000000000000       0x30 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ .text          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .data          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .bss           0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .text.link     0x0000000000000000        0x6 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .comment       0x0000000000000000       0x40 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .text          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .data          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .bss           0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .text.millis   0x0000000000000000        0xc ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .text.micros   0x0000000000000000       0x84 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .text          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .data          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .bss           0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .text.digitalRead
+                0x0000000000000000       0x28 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .text          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .data          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .bss           0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .ARM.extab.text.startup.main
+                0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .text          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .data          0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .bss           0x0000000000000000        0x0 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .text.__false  0x0000000000000000        0x4 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .text.__halt   0x0000000000000000        0x2 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .text          0x0000000000000000        0x0 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+ .data          0x0000000000000000        0x0 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+ .bss           0x0000000000000000        0x0 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .text._iprintf_r
+                0x0000000000000000       0x26 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .text.vfiprintf
+                0x0000000000000000       0x1c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000        0xc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .text.fputwc   0x0000000000000000       0x58 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .text._fwalk_reent
+                0x0000000000000000       0x46 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000000       0x44 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text.__locale_msgcharset
+                0x0000000000000000        0x8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text.__locale_cjk_lang
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text._localeconv_r
+                0x0000000000000000        0x8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text.setlocale
+                0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text.localeconv
+                0x0000000000000000        0x8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.lc_message_charset
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss.__nlocale_changed
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .bss.__mlocale_changed
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.lconv    0x0000000000000000       0x38 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .rodata.str1.1
+                0x0000000000000000        0xb /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .text.strcmp   0x0000000000000000       0x16 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .text.wcrtomb  0x0000000000000000       0x1c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0000000000000000       0x2c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text.PIO_DisableInterrupt
+                0x0000000000000000        0x4 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text.PIO_SetDebounceFilter
+                0x0000000000000000       0x1a ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text.PIO_Set  0x0000000000000000        0x4 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text.PIO_Get  0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text.PIO_Clear
+                0x0000000000000000        0x4 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_mck_set_prescaler
+                0x0000000000000000       0x18 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_mck_set_source
+                0x0000000000000000       0x18 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mck_to_sclk
+                0x0000000000000000       0x48 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mck_to_mainck
+                0x0000000000000000       0x4c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mck_to_pllack
+                0x0000000000000000       0x48 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mck_to_pllbck
+                0x0000000000000000       0x44 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_sclk_to_32kxtal
+                0x0000000000000000       0x24 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_osc_is_ready_32kxtal
+                0x0000000000000000       0x1c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mainck_to_fastrc
+                0x0000000000000000       0x6c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_osc_enable_fastrc
+                0x0000000000000000       0x18 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_osc_disable_fastrc
+                0x0000000000000000       0x18 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_mainck_to_xtal
+                0x0000000000000000       0x48 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_osc_disable_xtal
+                0x0000000000000000       0x20 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_osc_is_ready_mainck
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_pllack
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_pllack
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_is_locked_pllack
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_pllbck
+                0x0000000000000000       0x2c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_pllbck
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_is_locked_pllbck
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_all_periph_clk
+                0x0000000000000000       0x2c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_all_periph_clk
+                0x0000000000000000       0x28 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_is_periph_clk_enabled
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_pck_set_prescaler
+                0x0000000000000000       0x30 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_pck_set_source
+                0x0000000000000000       0x30 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_pck_to_sclk
+                0x0000000000000000       0x30 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_pck_to_mainck
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_pck_to_pllack
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_pck_to_pllbck
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_pck
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_pck
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_all_pck
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_all_pck
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_is_pck_enabled
+                0x0000000000000000       0x1c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_udpck_to_pllack
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_switch_udpck_to_pllbck
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_udpck
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_udpck
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_interrupt
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_disable_interrupt
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_get_interrupt_mask
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_get_status
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_set_fast_startup_input
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_clr_fast_startup_input
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_sleepmode
+                0x0000000000000000       0x28 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_waitmode
+                0x0000000000000000       0x30 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_enable_backupmode
+                0x0000000000000000       0x14 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_set_writeprotect
+                0x0000000000000000       0x1c ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text.pmc_get_writeprotect_status
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .text.TimeTick_Increment
+                0x0000000000000000       0x10 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .text.TimeTick_Configure
+                0x0000000000000000       0x34 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .text.Wait     0x0000000000000000       0x1c ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .text.Sleep    0x0000000000000000       0x20 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .text.WDT_Enable
+                0x0000000000000000        0x4 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .text.WDT_Restart
+                0x0000000000000000        0xc ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .text.WDT_GetStatus
+                0x0000000000000000        0x8 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .text.WDT_GetPeriod
+                0x0000000000000000       0x1a ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .text          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .data          0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .bss           0x0000000000000000        0x0 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .text.SystemCoreClockUpdate
+                0x0000000000000000       0xd8 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .text.system_init_flash
+                0x0000000000000000       0x3c ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000000000       0x28 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000000       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x0000000000000000       0x71 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0000000000000000       0xc0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_info    0x0000000000000000      0x174 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_abbrev  0x0000000000000000       0xb7 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_loc     0x0000000000000000       0xe0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_line    0x0000000000000000       0x71 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_str     0x0000000000000000      0x119 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000000000       0x54 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000000       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000000000000000       0x6d /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0000000000000000       0xc4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_info    0x0000000000000000      0x68f /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000000000      0x151 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000000000      0xebd /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000000000      0x108 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_line    0x0000000000000000       0xef /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_str     0x0000000000000000      0x1e6 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000000000      0x652 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000000000      0x14b /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000000      0xf66 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000000       0xf8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_line    0x0000000000000000       0xd8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_str     0x0000000000000000      0x1e7 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000000000000000       0x38 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000000000000000       0x90 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_info    0x0000000000000000       0xc4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .jcr           0x0000000000000000        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .text          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+ .data          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+ .bss           0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000080000 0x0000000000080000 xr
+sram0            0x0000000020000000 0x0000000000010000 xrw
+sram1            0x0000000020080000 0x0000000000008000 xrw
+ram              0x0000000020070000 0x0000000000018000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+LOAD debug_sam3s_ek/test.o
+START GROUP
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a
+LOAD /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a
+LOAD /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libstdc++.a
+LOAD ../../libsam_sam3s4c_gcc_rel.a
+LOAD ../../libarduino_sam3s_ek_gcc_rel.a
+LOAD ../../libvariant_sam3s_ek_gcc_rel.a
+END GROUP
+START GROUP
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a
+LOAD /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a
+END GROUP
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+LOAD /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+
+.text           0x0000000000080000     0x4198
+                0x0000000000080000                . = ALIGN (0x4)
+                0x0000000000080000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000080000       0xcc ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+                0x0000000000080000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000800cc       0xc8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .text.setup    0x0000000000080194       0x40 debug_sam3s_ek/test.o
+                0x0000000000080194                setup
+ .text._ZL9led_step1v
+                0x00000000000801d4        0xc debug_sam3s_ek/test.o
+ .text._ZL9led_step2v
+                0x00000000000801e0        0xc debug_sam3s_ek/test.o
+ .text.loop     0x00000000000801ec       0x2c debug_sam3s_ek/test.o
+                0x00000000000801ec                loop
+ .text          0x0000000000080218      0xa34 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                0x00000000000804f0                _Unwind_GetCFA
+                0x00000000000804f4                __gnu_Unwind_RaiseException
+                0x0000000000080554                __gnu_Unwind_ForcedUnwind
+                0x000000000008056c                __gnu_Unwind_Resume
+                0x00000000000805b0                __gnu_Unwind_Resume_or_Rethrow
+                0x00000000000805c8                _Unwind_Complete
+                0x00000000000805cc                _Unwind_DeleteException
+                0x00000000000805dc                _Unwind_VRS_Get
+                0x0000000000080624                _Unwind_VRS_Set
+                0x0000000000080958                __aeabi_unwind_cpp_pr2
+                0x0000000000080960                __aeabi_unwind_cpp_pr1
+                0x0000000000080968                __aeabi_unwind_cpp_pr0
+                0x0000000000080970                __gnu_Unwind_Backtrace
+                0x00000000000809e0                _Unwind_VRS_Pop
+ .text          0x0000000000080c4c      0x1ac /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                0x0000000000080c4c                __restore_core_regs
+                0x0000000000080c4c                restore_core_regs
+                0x0000000000080c64                __gnu_Unwind_Restore_VFP
+                0x0000000000080c6c                __gnu_Unwind_Save_VFP
+                0x0000000000080c74                __gnu_Unwind_Restore_VFP_D
+                0x0000000000080c7c                __gnu_Unwind_Save_VFP_D
+                0x0000000000080c84                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x0000000000080c8c                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x0000000000080c94                __gnu_Unwind_Restore_WMMXD
+                0x0000000000080cd8                __gnu_Unwind_Save_WMMXD
+                0x0000000000080d1c                __gnu_Unwind_Restore_WMMXC
+                0x0000000000080d30                __gnu_Unwind_Save_WMMXC
+                0x0000000000080d44                _Unwind_RaiseException
+                0x0000000000080d44                ___Unwind_RaiseException
+                0x0000000000080d68                ___Unwind_Resume
+                0x0000000000080d68                _Unwind_Resume
+                0x0000000000080d8c                ___Unwind_Resume_or_Rethrow
+                0x0000000000080d8c                _Unwind_Resume_or_Rethrow
+                0x0000000000080db0                _Unwind_ForcedUnwind
+                0x0000000000080db0                ___Unwind_ForcedUnwind
+                0x0000000000080dd4                _Unwind_Backtrace
+                0x0000000000080dd4                ___Unwind_Backtrace
+ .text          0x0000000000080df8      0x3a8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                0x0000000000080e48                __gnu_unwind_execute
+                0x0000000000081144                __gnu_unwind_frame
+                0x0000000000081170                _Unwind_GetRegionStart
+                0x000000000008117c                _Unwind_GetLanguageSpecificData
+                0x0000000000081190                _Unwind_GetDataRelBase
+                0x0000000000081198                _Unwind_GetTextRelBase
+ .text.abort    0x00000000000811a0        0xe /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+                0x00000000000811a0                abort
+ .text.memcpy   0x00000000000811ae       0x16 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                0x00000000000811ae                memcpy
+ .text._raise_r
+                0x00000000000811c4       0x50 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+                0x00000000000811c4                _raise_r
+ .text.raise    0x0000000000081214       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+                0x0000000000081214                raise
+ .text._kill_r  0x0000000000081224       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                0x0000000000081224                _kill_r
+ .text._getpid_r
+                0x0000000000081248        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                0x0000000000081248                _getpid_r
+ .text._malloc_r
+                0x000000000008124c      0x404 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x000000000008124c                _malloc_r
+ .text.__malloc_lock
+                0x0000000000081650        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                0x0000000000081650                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000000081652        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                0x0000000000081652                __malloc_unlock
+ .text._sbrk_r  0x0000000000081654       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                0x0000000000081654                _sbrk_r
+ .text._malloc_trim_r
+                0x0000000000081674       0x9c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                0x0000000000081674                _malloc_trim_r
+ .text._free_r  0x0000000000081710      0x168 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                0x0000000000081710                _free_r
+ .text.Dummy_Handler
+                0x0000000000081878        0x2 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+                0x0000000000081878                TC5_Handler
+                0x0000000000081878                DebugMon_Handler
+                0x0000000000081878                HardFault_Handler
+                0x0000000000081878                TC2_Handler
+                0x0000000000081878                SPI_Handler
+                0x0000000000081878                SysTick_Handler
+                0x0000000000081878                TWI1_Handler
+                0x0000000000081878                PendSV_Handler
+                0x0000000000081878                NMI_Handler
+                0x0000000000081878                ADC_Handler
+                0x0000000000081878                SMC_Handler
+                0x0000000000081878                CRCCU_Handler
+                0x0000000000081878                USART0_Handler
+                0x0000000000081878                RTT_Handler
+                0x0000000000081878                PIOB_Handler
+                0x0000000000081878                RTC_Handler
+                0x0000000000081878                UsageFault_Handler
+                0x0000000000081878                WDT_Handler
+                0x0000000000081878                TC4_Handler
+                0x0000000000081878                TC1_Handler
+                0x0000000000081878                HSMCI_Handler
+                0x0000000000081878                UART1_Handler
+                0x0000000000081878                TC3_Handler
+                0x0000000000081878                Dummy_Handler
+                0x0000000000081878                TWI0_Handler
+                0x0000000000081878                USART1_Handler
+                0x0000000000081878                PIOA_Handler
+                0x0000000000081878                SSC_Handler
+                0x0000000000081878                ACC_Handler
+                0x0000000000081878                PMC_Handler
+                0x0000000000081878                PWM_Handler
+                0x0000000000081878                MemManage_Handler
+                0x0000000000081878                SUPC_Handler
+                0x0000000000081878                SVC_Handler
+                0x0000000000081878                EFC_Handler
+                0x0000000000081878                UART0_Handler
+                0x0000000000081878                PIOC_Handler
+                0x0000000000081878                UDP_Handler
+                0x0000000000081878                BusFault_Handler
+                0x0000000000081878                RSTC_Handler
+                0x0000000000081878                TC0_Handler
+                0x0000000000081878                DACC_Handler
+ *fill*         0x000000000008187a        0x2 
+ .text.Reset_Handler
+                0x000000000008187c       0x7c ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+                0x000000000008187c                Reset_Handler
+ .text._sbrk    0x00000000000818f8       0x1c ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x00000000000818f8                _sbrk
+ .text._close   0x0000000000081914        0x6 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x0000000000081914                _close
+ .text._fstat   0x000000000008191a        0xa ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x000000000008191a                _fstat
+ .text._isatty  0x0000000000081924        0x4 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x0000000000081924                _isatty
+ .text._lseek   0x0000000000081928        0x4 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x0000000000081928                _lseek
+ .text._read    0x000000000008192c        0x4 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x000000000008192c                _read
+ .text._write   0x0000000000081930        0x6 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x0000000000081930                _write
+ *fill*         0x0000000000081936        0x2 
+ .text._exit    0x0000000000081938       0x14 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x0000000000081938                _exit
+ .text._kill    0x000000000008194c        0x2 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x000000000008194c                _kill
+ .text._getpid  0x000000000008194e        0x6 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                0x000000000008194e                _getpid
+ .text.delay    0x0000000000081954       0x20 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+                0x0000000000081954                delay
+ .text.pinMode  0x0000000000081974       0x6c ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+                0x0000000000081974                pinMode
+ .text.digitalWrite
+                0x00000000000819e0       0x4c ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+                0x00000000000819e0                digitalWrite
+ .text.startup.main
+                0x0000000000081a2c       0x34 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                0x0000000000081a2c                main
+ .text.__empty  0x0000000000081a60        0x2 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+                0x0000000000081a60                yield
+ *fill*         0x0000000000081a62        0x2 
+ .text.init     0x0000000000081a64       0x74 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                0x0000000000081a64                init
+ .text.__libc_init_array
+                0x0000000000081ad8       0x4c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+                0x0000000000081ad8                __libc_init_array
+ .text.iprintf  0x0000000000081b24       0x30 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+                0x0000000000081b24                iprintf
+ .text.__sprint_r
+                0x0000000000081b54       0x6c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x0000000000081b54                __sprint_r
+ .text._vfiprintf_r
+                0x0000000000081bc0      0x920 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x0000000000081bc0                _vfiprintf_r
+ .text.__swsetup_r
+                0x00000000000824e0       0xec /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                0x00000000000824e0                __swsetup_r
+ .text._fflush_r
+                0x00000000000825cc      0x154 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                0x00000000000825cc                _fflush_r
+ .text._cleanup_r
+                0x0000000000082720        0xc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000000000082720                _cleanup_r
+ .text.std.isra.0
+                0x000000000008272c       0x54 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .text.__sfmoreglue
+                0x0000000000082780       0x28 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000000000082780                __sfmoreglue
+ .text.__sinit  0x00000000000827a8       0x5c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x00000000000827a8                __sinit
+ .text.__sfp    0x0000000000082804       0x78 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000000000082804                __sfp
+ .text.__sfp_lock_acquire
+                0x000000000008287c        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000000000008287c                __sfp_lock_acquire
+ .text.__sfp_lock_release
+                0x000000000008287e        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x000000000008287e                __sfp_lock_release
+ .text._fputwc_r
+                0x0000000000082880       0xbc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                0x0000000000082880                _fputwc_r
+ .text.__sfvwrite_r
+                0x000000000008293c      0x2b4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                0x000000000008293c                __sfvwrite_r
+ .text._fwalk   0x0000000000082bf0       0x42 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                0x0000000000082bf0                _fwalk
+ *fill*         0x0000000000082c32        0x2 
+ .text.__locale_charset
+                0x0000000000082c34        0x8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x0000000000082c34                __locale_charset
+ .text.__locale_mb_cur_max
+                0x0000000000082c3c        0xc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x0000000000082c3c                __locale_mb_cur_max
+ .text.__smakebuf_r
+                0x0000000000082c48       0xd8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                0x0000000000082c48                __smakebuf_r
+ .text.memchr   0x0000000000082d20       0x1c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                0x0000000000082d20                memchr
+ .text.memmove  0x0000000000082d3c       0x32 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                0x0000000000082d3c                memmove
+ .text.memset   0x0000000000082d6e       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                0x0000000000082d6e                memset
+ *fill*         0x0000000000082d7e        0x2 
+ .text._realloc_r
+                0x0000000000082d80      0x2e0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                0x0000000000082d80                _realloc_r
+ .text.__sread  0x0000000000083060       0x22 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x0000000000083060                __sread
+ .text.__swrite
+                0x0000000000083082       0x3c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x0000000000083082                __swrite
+ .text.__sseek  0x00000000000830be       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00000000000830be                __sseek
+ .text.__sclose
+                0x00000000000830e2        0x8 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00000000000830e2                __sclose
+ .text.strlen   0x00000000000830ea       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                0x00000000000830ea                strlen
+ *fill*         0x00000000000830fa        0x2 
+ .text.__swbuf_r
+                0x00000000000830fc       0xcc /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                0x00000000000830fc                __swbuf_r
+ .text._wcrtomb_r
+                0x00000000000831c8       0x4c /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                0x00000000000831c8                _wcrtomb_r
+ .text.__ascii_wctomb
+                0x0000000000083214       0x1a /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x0000000000083214                __ascii_wctomb
+ *fill*         0x000000000008322e        0x2 
+ .text._write_r
+                0x0000000000083230       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                0x0000000000083230                _write_r
+ .text._close_r
+                0x0000000000083254       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                0x0000000000083254                _close_r
+ .text._fclose_r
+                0x0000000000083274       0xb0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                0x0000000000083274                _fclose_r
+ .text.fclose   0x0000000000083324       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                0x0000000000083324                fclose
+ .text._fstat_r
+                0x0000000000083334       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                0x0000000000083334                _fstat_r
+ .text._isatty_r
+                0x0000000000083358       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                0x0000000000083358                _isatty_r
+ .text._lseek_r
+                0x0000000000083378       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                0x0000000000083378                _lseek_r
+ .text._read_r  0x000000000008339c       0x24 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                0x000000000008339c                _read_r
+ .text.PIO_PullUp
+                0x00000000000833c0        0xa ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x00000000000833c0                PIO_PullUp
+ .text.PIO_SetPeripheral
+                0x00000000000833ca       0x58 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x00000000000833ca                PIO_SetPeripheral
+ .text.PIO_SetInput
+                0x0000000000083422       0x2c ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x0000000000083422                PIO_SetInput
+ .text.PIO_SetOutput
+                0x000000000008344e       0x24 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x000000000008344e                PIO_SetOutput
+ *fill*         0x0000000000083472        0x2 
+ .text.PIO_Configure
+                0x0000000000083474       0x64 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x0000000000083474                PIO_Configure
+ .text.PIO_GetOutputDataStatus
+                0x00000000000834d8       0x16 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                0x00000000000834d8                PIO_GetOutputDataStatus
+ *fill*         0x00000000000834ee        0x2 
+ .text.pmc_enable_periph_clk
+                0x00000000000834f0       0x44 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+                0x00000000000834f0                pmc_enable_periph_clk
+ .text.pmc_disable_periph_clk
+                0x0000000000083534       0x40 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+                0x0000000000083534                pmc_disable_periph_clk
+ .text.GetTickCount
+                0x0000000000083574        0xc ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+                0x0000000000083574                GetTickCount
+ .text.WDT_Disable
+                0x0000000000083580        0x8 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+                0x0000000000083580                WDT_Disable
+ .text.SystemInit
+                0x0000000000083588       0x8c ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+                0x0000000000083588                SystemInit
+ .text          0x0000000000083614       0x2c /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000000083614                __aeabi_uldivmod
+ .text          0x0000000000083640       0x60 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+                0x0000000000083640                __gnu_ldivmod_helper
+                0x0000000000083670                __gnu_uldivmod_helper
+ .text          0x00000000000836a0        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+                0x00000000000836a0                __aeabi_ldiv0
+                0x00000000000836a0                __aeabi_idiv0
+ .text          0x00000000000836a4      0x36c /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+                0x00000000000836a4                __divdi3
+ .text          0x0000000000083a10      0x314 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                0x0000000000083a10                __udivdi3
+ *fill*         0x0000000000083d24        0x4 
+ .text          0x0000000000083d28      0x278 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+                0x0000000000083d28                __udivsi3
+                0x0000000000083d28                __aeabi_uidiv
+                0x0000000000083f84                __aeabi_uidivmod
+ *(.glue_7t)
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x0000000000000000        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000083fa0        0x2 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ *fill*         0x0000000000083fa2        0x2 
+ .rodata._global_impure_ptr
+                0x0000000000083fa4        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x0000000000083fa4                _global_impure_ptr
+ .rodata.str1.1
+                0x0000000000083fa8       0x19 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ *fill*         0x0000000000083fc1        0x3 
+ .rodata.g_APinDescription
+                0x0000000000083fc4       0xe0 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                0x0000000000083fc4                g_APinDescription
+ .rodata.blanks.6693
+                0x00000000000840a4       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.1
+                0x00000000000840b4       0x22 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .rodata.zeroes.6694
+                0x00000000000840d6       0x10 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ *fill*         0x00000000000840e6        0x2 
+ .rodata.__sf_fake_stdin
+                0x00000000000840e8       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x00000000000840e8                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x0000000000084108       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000000000084108                __sf_fake_stdout
+ .rodata.__sf_fake_stderr
+                0x0000000000084128       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x0000000000084128                __sf_fake_stderr
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x0000000000084148       0x18 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x0000000000084160       0x18 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                0x0000000000084178                . = ALIGN (0x4)
+ *(.init)
+ .init          0x0000000000084178        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+                0x0000000000084178                _init
+ .init          0x000000000008417c        0x8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+                0x0000000000084184                . = ALIGN (0x4)
+                0x0000000000084184                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000000084184                __preinit_array_end = .
+                0x0000000000084184                . = ALIGN (0x4)
+                0x0000000000084184                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000000084184        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+                0x0000000000084188                __init_array_end = .
+                0x0000000000084188                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000000084188                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x0000000000084188        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+                0x0000000000084188                _fini
+ .fini          0x000000000008418c        0x8 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+                0x0000000000084194                . = ALIGN (0x4)
+                0x0000000000084194                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x0000000000084194        0x4 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0000000000084198                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000000000084198                . = ALIGN (0x4)
+                0x0000000000084198                _efixed = .
+                0x0000000000084198                PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x0000000000084198        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000084198        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000084198        0x0
+ .iplt          0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+
+.ARM.exidx      0x0000000000084198       0xf0
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.setup
+                0x0000000000084198        0x8 debug_sam3s_ek/test.o
+ .ARM.exidx.text._ZL9led_step1v
+                0x00000000000841a0        0x8 debug_sam3s_ek/test.o
+ .ARM.exidx.text._ZL9led_step2v
+                0x00000000000841a8        0x0 debug_sam3s_ek/test.o
+                                          0x8 (size before relaxing)
+ .ARM.exidx.text.loop
+                0x00000000000841a8        0x8 debug_sam3s_ek/test.o
+ .ARM.exidx     0x00000000000841b0       0x90 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                         0xd8 (size before relaxing)
+ .ARM.exidx     0x0000000000084240       0x38 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                                         0x48 (size before relaxing)
+ .ARM.exidx.text.startup.main
+                0x0000000000084278       0x10 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+                                          0x8 (size before relaxing)
+ .ARM.exidx     0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                                          0x8 (size before relaxing)
+                0x0000000000084288                PROVIDE (__exidx_end, .)
+
+.eh_frame       0x0000000000084288        0x0
+ .eh_frame      0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+
+.rel.dyn        0x0000000000084288        0x0
+ .rel.iplt      0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+
+.jcr            0x0000000000084288        0x0
+ .jcr           0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+
+.tm_clone_table
+                0x0000000000084288        0x0
+ .tm_clone_table
+                0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .tm_clone_table
+                0x0000000000084288        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+
+.igot.plt       0x0000000000084288        0x0
+ .igot.plt      0x0000000000000000        0x0 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+                0x0000000000084288                . = ALIGN (0x4)
+                0x0000000000084288                _etext = .
+
+.relocate       0x0000000020070000      0x530 load address 0x0000000000084288
+                0x0000000020070000                . = ALIGN (0x4)
+                0x0000000020070000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.impure_data
+                0x0000000020070000       0xf0 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000200700f0        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x00000000200700f0                _impure_ptr
+ .data.__malloc_av_
+                0x00000000200700f4      0x408 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x00000000200700f4                __malloc_av_
+ .data.__malloc_trim_threshold
+                0x00000000200704fc        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x00000000200704fc                __malloc_trim_threshold
+ .data.__malloc_sbrk_base
+                0x0000000020070500        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x0000000020070500                __malloc_sbrk_base
+ .data.lc_ctype_charset
+                0x0000000020070504       0x20 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .data.__mb_cur_max
+                0x0000000020070524        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x0000000020070524                __mb_cur_max
+ .data.__wctomb
+                0x0000000020070528        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x0000000020070528                __wctomb
+ .data.SystemCoreClock
+                0x000000002007052c        0x4 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+                0x000000002007052c                SystemCoreClock
+                0x0000000020070530                . = ALIGN (0x4)
+                0x0000000020070530                _erelocate = .
+
+.bss            0x0000000020070530       0x5c load address 0x00000000000847b8
+                0x0000000020070530                . = ALIGN (0x4)
+                0x0000000020070530                _sbss = .
+                0x0000000020070530                _szero = .
+ *(.bss .bss.*)
+ .bss           0x0000000020070530       0x1c /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .bss.__malloc_max_total_mem
+                0x000000002007054c        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x000000002007054c                __malloc_max_total_mem
+ .bss.__malloc_max_sbrked_mem
+                0x0000000020070550        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x0000000020070550                __malloc_max_sbrked_mem
+ .bss.__malloc_top_pad
+                0x0000000020070554        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x0000000020070554                __malloc_top_pad
+ .bss.__malloc_current_mallinfo
+                0x0000000020070558       0x28 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x0000000020070558                __malloc_current_mallinfo
+ .bss.heap.5981
+                0x0000000020070580        0x4 ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+ .bss._dwTickCount
+                0x0000000020070584        0x4 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ *(COMMON)
+ COMMON         0x0000000020070588        0x4 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x0000000020070588                errno
+                0x000000002007058c                . = ALIGN (0x4)
+                0x000000002007058c                _ebss = .
+                0x000000002007058c                _ezero = .
+                0x000000002007058c                . = ALIGN (0x4)
+                0x000000002007058c                _end = .
+
+.stack_dummy    0x000000002007058c        0x0
+ *(.stack*)
+                0x0000000020088000                __StackTop = (ORIGIN (ram) + 0x18000)
+                0x0000000020088000                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000020088000                PROVIDE (_sstack, __StackLimit)
+                0x0000000020088000                PROVIDE (_estack, __StackTop)
+OUTPUT(debug_sam3s_ek/test_gcc_rel.elf elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .ARM.attributes
+                0x0000000000000019       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .ARM.attributes
+                0x0000000000000042       0x33 debug_sam3s_ek/test.o
+ .ARM.attributes
+                0x0000000000000075       0x33 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ .ARM.attributes
+                0x00000000000000a8       0x33 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .ARM.attributes
+                0x00000000000000db       0x33 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .ARM.attributes
+                0x000000000000010e       0x33 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .ARM.attributes
+                0x0000000000000141       0x33 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .ARM.attributes
+                0x0000000000000174       0x33 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+ .ARM.attributes
+                0x00000000000001a7       0x29 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000001d0       0x33 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .ARM.attributes
+                0x0000000000000203       0x33 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .ARM.attributes
+                0x0000000000000236       0x33 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .ARM.attributes
+                0x0000000000000269       0x33 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .ARM.attributes
+                0x000000000000029c       0x33 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .ARM.attributes
+                0x00000000000002cf       0x29 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .ARM.attributes
+                0x00000000000002f8       0x19 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+
+.comment        0x0000000000000000       0x3f
+ .comment       0x0000000000000000       0x3f /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+                                         0x40 (size before relaxing)
+ .comment       0x0000000000000000       0x40 debug_sam3s_ek/test.o
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ .comment       0x0000000000000000       0x40 ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+ .comment       0x0000000000000000       0x40 ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+ .comment       0x0000000000000000       0x40 ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+ .comment       0x0000000000000000       0x40 ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+ .comment       0x0000000000000000       0x40 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+ .comment       0x0000000000000000       0x40 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+ .comment       0x0000000000000000       0x40 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+
+.debug_info     0x0000000000000000      0x2c5
+ .debug_info    0x0000000000000000      0x2c5 debug_sam3s_ek/test.o
+
+.debug_abbrev   0x0000000000000000       0xb1
+ .debug_abbrev  0x0000000000000000       0xb1 debug_sam3s_ek/test.o
+
+.debug_loc      0x0000000000000000       0xb0
+ .debug_loc     0x0000000000000000       0xb0 debug_sam3s_ek/test.o
+
+.debug_aranges  0x0000000000000000       0x38
+ .debug_aranges
+                0x0000000000000000       0x38 debug_sam3s_ek/test.o
+
+.debug_ranges   0x0000000000000000       0x28
+ .debug_ranges  0x0000000000000000       0x28 debug_sam3s_ek/test.o
+
+.debug_line     0x0000000000000000      0x179
+ .debug_line    0x0000000000000000      0x179 debug_sam3s_ek/test.o
+
+.debug_str      0x0000000000000000      0x16b
+ .debug_str     0x0000000000000000      0x16b debug_sam3s_ek/test.o
+                                        0x1ab (size before relaxing)
+
+.debug_frame    0x0000000000000000       0x78
+ .debug_frame   0x0000000000000000       0x78 debug_sam3s_ek/test.o
+
+Cross Reference Table
+
+Symbol                                            File
+ACC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+ADC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+BusFault_Handler                                  ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+CRCCU_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+DACC_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+DebugMon_Handler                                  ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+Dummy_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+EFC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+GetTickCount                                      ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+HSMCI_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+HardFault_Handler                                 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+MemManage_Handler                                 ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+NMI_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PIOA_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PIOB_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PIOC_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PIO_Clear                                         ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PIO_Configure                                     ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+PIO_DisableInterrupt                              ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PIO_Get                                           ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+PIO_GetOutputDataStatus                           ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+PIO_PullUp                                        ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+PIO_Set                                           ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PIO_SetDebounceFilter                             ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PIO_SetInput                                      ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PIO_SetOutput                                     ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+PIO_SetPeripheral                                 ../../libsam_sam3s4c_gcc_rel.a(pio.o)
+PMC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PWM_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+PendSV_Handler                                    ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+RSTC_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+RTC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+RTT_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+Reset_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SMC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SPI_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SSC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SUPC_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SVC_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+Sleep                                             ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+SysTick_Handler                                   ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+SystemCoreClock                                   ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+                                                  ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+SystemCoreClockUpdate                             ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+SystemInit                                        ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+                                                  ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+TC0_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TC1_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TC2_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TC3_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TC4_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TC5_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TWI0_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TWI1_Handler                                      ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+TimeTick_Configure                                ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+TimeTick_Increment                                ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+UART0_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+UART1_Handler                                     ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+UDP_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+USART0_Handler                                    ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+USART1_Handler                                    ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+UsageFault_Handler                                ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+WDT_Disable                                       ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+                                                  ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+WDT_Enable                                        ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+WDT_GetPeriod                                     ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+WDT_GetStatus                                     ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+WDT_Handler                                       ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+WDT_Restart                                       ../../libsam_sam3s4c_gcc_rel.a(wdt.o)
+Wait                                              ../../libsam_sam3s4c_gcc_rel.a(timetick.o)
+_ITM_deregisterTMCloneTable                       /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+_ITM_registerTMCloneTable                         /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+_Jv_RegisterClasses                               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+_PathLocale                                       /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+_Unwind_Backtrace                                 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+_Unwind_Complete                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+_Unwind_DeleteException                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+_Unwind_ForcedUnwind                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+_Unwind_GetCFA                                    /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+_Unwind_GetDataRelBase                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_GetLanguageSpecificData                   /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_GetRegionStart                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_GetTextRelBase                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_RaiseException                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+_Unwind_Resume                                    /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+_Unwind_Resume_or_Rethrow                         /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+_Unwind_VRS_Get                                   /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_VRS_Pop                                   /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+_Unwind_VRS_Set                                   /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+__TMC_END__                                       /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+___Unwind_Backtrace                               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+___Unwind_ForcedUnwind                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+___Unwind_RaiseException                          /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+___Unwind_Resume                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+___Unwind_Resume_or_Rethrow                       /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__aeabi_idiv0                                     /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+__aeabi_ldiv0                                     /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_dvmd_tls.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+__aeabi_uidiv                                     /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+__aeabi_uidivmod                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+__aeabi_uldivmod                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+__aeabi_unwind_cpp_pr0                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                                                  debug_sam3s_ek/test.o
+__aeabi_unwind_cpp_pr1                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+__aeabi_unwind_cpp_pr2                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__ascii_wctomb                                    /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+__cxa_begin_cleanup                               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__cxa_call_unexpected                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__cxa_type_match                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__deregister_frame_info                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+__divdi3                                          /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_divdi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+__dso_handle                                      /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+__exidx_end                                       /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__exidx_start                                     /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__fp_lock_all                                     /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__fp_unlock_all                                   /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__gnu_Unwind_Backtrace                            /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__gnu_Unwind_Find_exidx                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_ForcedUnwind                         /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__gnu_Unwind_RaiseException                       /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__gnu_Unwind_Restore_VFP                          /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Restore_VFP_D                        /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Restore_VFP_D_16_to_31               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Restore_WMMXC                        /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Restore_WMMXD                        /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Resume                               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__gnu_Unwind_Resume_or_Rethrow                    /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__gnu_Unwind_Save_VFP                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Save_VFP_D                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Save_VFP_D_16_to_31                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Save_WMMXC                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_Unwind_Save_WMMXD                           /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_ldivmod_helper                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+__gnu_uldivmod_helper                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_aeabi_uldivmod.o)
+__gnu_unwind_execute                              /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+__gnu_unwind_frame                                /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+__init_array_end                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+__init_array_start                                /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+__libc_init_array                                 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+                                                  ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                                                  ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+__locale_charset                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+__locale_cjk_lang                                 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__locale_mb_cur_max                               /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+__locale_msgcharset                               /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__malloc_av_                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_current_mallinfo                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_lock                                     /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__malloc_max_sbrked_mem                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__malloc_max_total_mem                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__malloc_sbrk_base                                /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_top_pad                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_trim_threshold                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+__malloc_unlock                                   /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+__mb_cur_max                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__mlocale_changed                                 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__nlocale_changed                                 /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+__preinit_array_end                               /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+__preinit_array_start                             /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+__register_frame_info                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+__restore_core_regs                               /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+__sclose                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__seofread                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+__sf_fake_stderr                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sf_fake_stdin                                   /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sf_fake_stdout                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+__sfmoreglue                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sfp                                             /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sfp_lock_acquire                                /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+__sfp_lock_release                                /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+__sfvwrite_r                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+__sigtramp                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+__sigtramp_r                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+__sinit                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+__sinit_lock_acquire                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sinit_lock_release                              /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__smakebuf_r                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+__sprint_r                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+__sread                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__sseek                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__swbuf                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+__swbuf_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+__swrite                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+__swsetup_r                                       /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+__udivdi3                                         /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivdi3.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(bpabi.o)
+__udivsi3                                         /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(_udivsi3.o)
+__wctomb                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+_cleanup                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+_cleanup_r                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_close                                            ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+_close_r                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_end                                              ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+_erelocate                                        ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_estack                                           ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_etext                                            ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_exit                                             ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+_ezero                                            ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_fclose_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+_fflush_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+_fini                                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+_fputwc_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+_free_r                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+_fstat                                            ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+_fstat_r                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_fwalk                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+_fwalk_reent                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+_getpid                                           ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+_getpid_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_global_impure_ptr                                /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+_impure_ptr                                       /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_init                                             /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+_init_signal                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_init_signal_r                                    /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_iprintf_r                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+_isatty                                           ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+_isatty_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+_kill                                             ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+_kill_r                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_localeconv_r                                     /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+_lseek                                            ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+_lseek_r                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_malloc_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_malloc_trim_r                                    /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+_raise_r                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_read                                             ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+_read_r                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+_realloc_r                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+_reclaim_reent                                    /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+_sbrk                                             ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+_sbrk_r                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+_setlocale_r                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+_sfixed                                           ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_signal_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+_srelocate                                        ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_szero                                            ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+_vfiprintf_r                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+_wcrtomb_r                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+_wctomb_r                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+_wrapup_reent                                     /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+_write                                            ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+_write_r                                          /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+abort                                             /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(pr-support.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+cleanup_glue                                      /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+delay                                             ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                                                  debug_sam3s_ek/test.o
+digitalRead                                       ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+digitalWrite                                      ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+                                                  ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                                                  debug_sam3s_ek/test.o
+errno                                             /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-readr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-lseekr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-isattyr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fstatr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-closer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-writer.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-sbrkr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+exception_table                                   ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+fclose                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+fflush                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+fputwc                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+g_APinDescription                                 ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+init                                              ../../libvariant_sam3s_ek_gcc_rel.a(variant.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+iprintf                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-iprintf.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+link                                              ../../libarduino_sam3s_ek_gcc_rel.a(syscalls_sam3.o)
+localeconv                                        /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+loop                                              debug_sam3s_ek/test.o
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+main                                              ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+                                                  ../../libsam_sam3s4c_gcc_rel.a(startup_sam3s.o)
+memchr                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+memcpy                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+memmove                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+memset                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+micros                                            ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+millis                                            ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)
+pendSVHook                                        ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+pinMode                                           ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+                                                  debug_sam3s_ek/test.o
+pmc_clr_fast_startup_input                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_all_pck                               ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_all_periph_clk                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_interrupt                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_pck                                   ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_periph_clk                            ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+pmc_disable_pllack                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_pllbck                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_disable_udpck                                 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_all_pck                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_all_periph_clk                         ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_backupmode                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_interrupt                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_pck                                    ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_periph_clk                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring_digital.o)
+pmc_enable_pllack                                 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_pllbck                                 ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_sleepmode                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_udpck                                  ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_enable_waitmode                               ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_get_interrupt_mask                            ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_get_status                                    ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_get_writeprotect_status                       ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_is_locked_pllack                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_is_locked_pllbck                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_is_pck_enabled                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_is_periph_clk_enabled                         ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_mck_set_prescaler                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_mck_set_source                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_osc_disable_fastrc                            ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_osc_disable_xtal                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_osc_enable_fastrc                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_osc_is_ready_32kxtal                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_osc_is_ready_mainck                           ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_pck_set_prescaler                             ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_pck_set_source                                ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_set_fast_startup_input                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_set_writeprotect                              ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mainck_to_fastrc                       ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mainck_to_xtal                         ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mck_to_mainck                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mck_to_pllack                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mck_to_pllbck                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_mck_to_sclk                            ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_pck_to_mainck                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_pck_to_pllack                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_pck_to_pllbck                          ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_pck_to_sclk                            ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_sclk_to_32kxtal                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_udpck_to_pllack                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+pmc_switch_udpck_to_pllbck                        ../../libsam_sam3s4c_gcc_rel.a(pmc.o)
+raise                                             /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+restore_core_regs                                 /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(libunwind.o)
+                                                  /Users/taylor/arm-cs-tools/lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a(unwind-arm.o)
+serialEventRun()                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+setlocale                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+setup                                             debug_sam3s_ek/test.o
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(main.o)
+signal                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+strcmp                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+strlen                                            /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                                                  /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+svcHook                                           ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+sysTickHook                                       ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+system_init_flash                                 ../../libsam_sam3s4c_gcc_rel.a(system_sam3s.o)
+vfiprintf                                         /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+wcrtomb                                           /Users/taylor/arm-cs-tools/arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+yield                                             ../../libarduino_sam3s_ek_gcc_rel.a(hooks.o)
+                                                  ../../libarduino_sam3s_ek_gcc_rel.a(wiring.o)

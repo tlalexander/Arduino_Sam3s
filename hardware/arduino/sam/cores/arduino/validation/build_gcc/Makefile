@@ -24,13 +24,13 @@ SUBMAKE_OPTIONS=--no-builtin-rules --no-builtin-variables --no-print-directory
 
 all: test
 
-test: test_sam3s_ek arduino_due_x
+test: test_sam3s_ek
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Making test
-#	@$(MAKE) DEBUG=1 VARIANT=sam3s_ek $(SUBMAKE_OPTIONS) -f test.mk
+	@$(MAKE) DEBUG=1 VARIANT=sam3s_ek $(SUBMAKE_OPTIONS) -f test.mk
 #	@$(MAKE) DEBUG=1 VARIANT=sam3u_ek $(SUBMAKE_OPTIONS) -f test.mk
 	@$(MAKE) VARIANT=sam3s_ek $(SUBMAKE_OPTIONS) -f test.mk
-	@$(MAKE) VARIANT=arduino_due_x $(SUBMAKE_OPTIONS) -f test.mk
+#	@$(MAKE) VARIANT=arduino_due_x $(SUBMAKE_OPTIONS) -f test.mk
 	@echo ------------------------------------------------------------------------------------
 
 .PHONY: test_adk2

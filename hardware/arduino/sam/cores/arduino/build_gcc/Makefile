@@ -17,7 +17,8 @@
 #
 
 ifeq ("$(VARIANTS)", "")
-VARIANTS = sam3s_ek arduino_due_x
+VARIANTS = sam3s_ek
+#arduino_due_x
 #sam3x_ek adk2 sam3s_ek
 #VARIANTS =  
 #sam3u_ek 
@@ -35,7 +36,7 @@ all: $(VARIANTS)
 sam3s_ek:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Making sam3s_ek
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk
 	@$(MAKE) $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk
 	@echo ------------------------------------------------------------------------------------
 
@@ -75,7 +76,7 @@ arduino_due_x:
 clean:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Cleaning sam3s_ek
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk $@
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk $@
 	@$(MAKE) $(SUBMAKE_OPTIONS) -f libarduino_sam3s_ek.mk $@
 
 	@echo --- Cleaning sam3u_ek
