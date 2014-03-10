@@ -11,15 +11,13 @@
 #include "SPI.h"
 
 SPIClass::SPIClass(Spi *_spi, uint32_t _id, void(*_initCb)(void)) :
-	spi(_spi), id(_id), initCb(_initCb)
+	spi(_spi), id(_id), initCb(_initCb), initialized(false)
 {
 	// Empty
 }
 
 void SPIClass::begin() {
-	initCb();
-	SPI_Configure(spi, id, SPI_MR_MSTR | SPI_MR_PS | SPI_MR_MODFDIS);
-	SPI_Enable(spi);
+	init();
 
 	// NPCS control is left to the user
 
@@ -30,6 +28,8 @@ void SPIClass::begin() {
 }
 
 void SPIClass::begin(uint8_t _pin) {
+	init();
+
 	uint32_t spiPin = BOARD_PIN_TO_SPI_PIN(_pin);
 	PIO_Configure(
 		g_APinDescription[spiPin].pPort,
@@ -43,6 +43,15 @@ void SPIClass::begin(uint8_t _pin) {
 	setBitOrder(_pin, MSBFIRST);
 }
 
+void SPIClass::init() {
+	if (initialized)
+		return;
+	initCb();
+	SPI_Configure(spi, id, SPI_MR_MSTR | SPI_MR_PS | SPI_MR_MODFDIS);
+	SPI_Enable(spi);
+	initialized = true;
+}
+
 void SPIClass::end(uint8_t _pin) {
 	uint32_t spiPin = BOARD_PIN_TO_SPI_PIN(_pin);
 	// Setting the pin as INPUT will disconnect it from SPI peripheral
@@ -51,6 +60,7 @@ void SPIClass::end(uint8_t _pin) {
 
 void SPIClass::end() {
 	SPI_Disable(spi);
+	initialized = false;
 }
 
 void SPIClass::setBitOrder(uint8_t _pin, BitOrder _bitOrder) {

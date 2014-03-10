@@ -4,7 +4,49 @@ menu.cpu=Processor
 
 ##############################################################
 
+yun.name=Arduino Yún
+yun.upload.via_ssh=true
+
+yun.vid.0=0x2341
+yun.pid.0=0x0041
+yun.vid.1=0x2341
+yun.pid.1=0x8041
+yun.upload.tool=avrdude
+yun.upload.protocol=avr109
+yun.upload.maximum_size=28672
+yun.upload.maximum_data_size=2560
+yun.upload.speed=57600
+yun.upload.disable_flushing=true
+yun.upload.use_1200bps_touch=true
+yun.upload.wait_for_upload_port=true
+
+yun.bootloader.tool=avrdude
+yun.bootloader.low_fuses=0xff
+yun.bootloader.high_fuses=0xd8
+yun.bootloader.extended_fuses=0xfb
+yun.bootloader.file=caterina/Caterina-Yun.hex
+yun.bootloader.unlock_bits=0x3F
+yun.bootloader.lock_bits=0x2F
+
+yun.build.mcu=atmega32u4
+yun.build.f_cpu=16000000L
+yun.build.vid=0x2341
+yun.build.pid=0x8041
+yun.build.usb_product="Arduino Yun"
+yun.build.board=AVR_YUN
+yun.build.core=arduino
+yun.build.variant=yun
+yun.build.extra_flags={build.usb_flags}
+
+##############################################################
+
 uno.name=Arduino Uno
+
+uno.vid.0=0x2341
+uno.pid.0=0x0043
+uno.vid.1=0x2341
+uno.pid.1=0x0001
+
 uno.upload.tool=avrdude
 uno.upload.protocol=arduino
 uno.upload.maximum_size=32256
@@ -27,48 +69,48 @@ uno.build.variant=standard
 
 ##############################################################
 
-atmega328diecimila.name=Arduino Duemilanove or Diecimila
+diecimila.name=Arduino Duemilanove or Diecimila
 
-atmega328diecimila.upload.tool=avrdude
-atmega328diecimila.upload.protocol=arduino
+diecimila.upload.tool=avrdude
+diecimila.upload.protocol=arduino
 
-atmega328diecimila.bootloader.tool=avrdude
-atmega328diecimila.bootloader.low_fuses=0xFF
-atmega328diecimila.bootloader.unlock_bits=0x3F
-atmega328diecimila.bootloader.lock_bits=0x0F
+diecimila.bootloader.tool=avrdude
+diecimila.bootloader.low_fuses=0xFF
+diecimila.bootloader.unlock_bits=0x3F
+diecimila.bootloader.lock_bits=0x0F
 
-atmega328diecimila.build.f_cpu=16000000L
-atmega328diecimila.build.board=AVR_DUEMILANOVE
-atmega328diecimila.build.core=arduino
-atmega328diecimila.build.variant=standard
+diecimila.build.f_cpu=16000000L
+diecimila.build.board=AVR_DUEMILANOVE
+diecimila.build.core=arduino
+diecimila.build.variant=standard
 
 ## Arduino Duemilanove or Diecimila w/ ATmega328
 ## ---------------------------------------------
-atmega328diecimila.menu.cpu.atmega328=ATmega328
+diecimila.menu.cpu.atmega328=ATmega328
 
-atmega328diecimila.menu.cpu.atmega328.upload.maximum_size=30720
-atmega328diecimila.menu.cpu.atmega328.upload.maximum_data_size=2048
-atmega328diecimila.menu.cpu.atmega328.upload.speed=57600
+diecimila.menu.cpu.atmega328.upload.maximum_size=30720
+diecimila.menu.cpu.atmega328.upload.maximum_data_size=2048
+diecimila.menu.cpu.atmega328.upload.speed=57600
 
-atmega328diecimila.menu.cpu.atmega328.bootloader.high_fuses=0xDA
-atmega328diecimila.menu.cpu.atmega328.bootloader.extended_fuses=0x05
-atmega328diecimila.menu.cpu.atmega328.bootloader.file=atmega/ATmegaBOOT_168_atmega328.hex
+diecimila.menu.cpu.atmega328.bootloader.high_fuses=0xDA
+diecimila.menu.cpu.atmega328.bootloader.extended_fuses=0x05
+diecimila.menu.cpu.atmega328.bootloader.file=atmega/ATmegaBOOT_168_atmega328.hex
 
-atmega328diecimila.menu.cpu.atmega328.build.mcu=atmega328p
+diecimila.menu.cpu.atmega328.build.mcu=atmega328p
 
 ## Arduino Duemilanove or Diecimila w/ ATmega168
 ## ---------------------------------------------
-atmega328diecimila.menu.cpu.atmega168=ATmega168
+diecimila.menu.cpu.atmega168=ATmega168
 
-atmega328diecimila.menu.cpu.atmega168.upload.maximum_size=14336
-atmega328diecimila.menu.cpu.atmega168.upload.maximum_data_size=1024
-atmega328diecimila.menu.cpu.atmega168.upload.speed=19200
+diecimila.menu.cpu.atmega168.upload.maximum_size=14336
+diecimila.menu.cpu.atmega168.upload.maximum_data_size=1024
+diecimila.menu.cpu.atmega168.upload.speed=19200
 
-atmega328diecimila.menu.cpu.atmega168.bootloader.high_fuses=0xdd
-atmega328diecimila.menu.cpu.atmega168.bootloader.extended_fuses=0x00
-atmega328diecimila.menu.cpu.atmega168.bootloader.file=atmega/ATmegaBOOT_168_diecimila.hex
+diecimila.menu.cpu.atmega168.bootloader.high_fuses=0xdd
+diecimila.menu.cpu.atmega168.bootloader.extended_fuses=0x00
+diecimila.menu.cpu.atmega168.bootloader.file=atmega/ATmegaBOOT_168_diecimila.hex
 
-atmega328diecimila.menu.cpu.atmega168.build.mcu=atmega168
+diecimila.menu.cpu.atmega168.build.mcu=atmega168
 
 ##############################################################
 
@@ -99,7 +141,7 @@ nano.menu.cpu.atmega328.bootloader.high_fuses=0xDA
 nano.menu.cpu.atmega328.bootloader.extended_fuses=0x05
 nano.menu.cpu.atmega328.bootloader.file=atmega/ATmegaBOOT_168_atmega328.hex
 
-menu.cpu.nano.atmega328.build.mcu=atmega328p
+nano.menu.cpu.atmega328.build.mcu=atmega328p
 
 ## Arduino Nano w/ ATmega168
 ## -------------------------
@@ -118,55 +160,93 @@ nano.menu.cpu.atmega168.build.mcu=atmega168
 
 ##############################################################
 
-mega2560.name=Arduino Mega 2560 or Mega ADK
-mega2560.cpu=2560 or ADK
+mega.name=Arduino Mega or Mega 2560
 
-mega2560.upload.tool=avrdude
-mega2560.upload.protocol=wiring
-mega2560.upload.maximum_size=258048
-mega2560.upload.speed=115200
-
-mega2560.bootloader.tool=avrdude
-mega2560.bootloader.low_fuses=0xFF
-mega2560.bootloader.high_fuses=0xD8
-mega2560.bootloader.extended_fuses=0xFD
-mega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
-mega2560.bootloader.unlock_bits=0x3F
-mega2560.bootloader.lock_bits=0x0F
-
-mega2560.build.mcu=atmega2560
-mega2560.build.f_cpu=16000000L
-mega2560.build.board=AVR_MEGA2560
-mega2560.build.core=arduino
-mega2560.build.variant=mega
-
-##############################################################
-
-mega.name=Arduino Mega (ATmega1280)
-mega.cpu=ATmega1280
+mega.vid.0=0x2341
+mega.pid.0=0x0010
+mega.vid.1=0x2341
+mega.pid.1=0x0042
 
 mega.upload.tool=avrdude
-mega.upload.protocol=arduino
-mega.upload.maximum_size=126976
-mega.upload.speed=57600
+mega.upload.maximum_data_size=8192
 
 mega.bootloader.tool=avrdude
 mega.bootloader.low_fuses=0xFF
-mega.bootloader.high_fuses=0xDA
-mega.bootloader.extended_fuses=0xF5
-mega.bootloader.file=atmega/ATmegaBOOT_168_atmega1280.hex
 mega.bootloader.unlock_bits=0x3F
 mega.bootloader.lock_bits=0x0F
 
-mega.build.mcu=atmega1280
 mega.build.f_cpu=16000000L
-mega.build.board=AVR_MEGA
 mega.build.core=arduino
 mega.build.variant=mega
+# default board  may be overridden by the cpu menu
+mega.build.board=AVR_MEGA2560
+
+## Arduino Mega w/ ATmega2560
+## -------------------------
+mega.menu.cpu.atmega2560=ATmega2560 (Mega 2560)
+
+mega.menu.cpu.atmega2560.upload.protocol=wiring
+mega.menu.cpu.atmega2560.upload.maximum_size=258048
+mega.menu.cpu.atmega2560.upload.speed=115200
+
+mega.menu.cpu.atmega2560.bootloader.high_fuses=0xD8
+mega.menu.cpu.atmega2560.bootloader.extended_fuses=0xFD
+mega.menu.cpu.atmega2560.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+
+mega.menu.cpu.atmega2560.build.mcu=atmega2560
+mega.menu.cpu.atmega2560.build.board=AVR_MEGA2560
+
+## Arduino Mega w/ ATmega1280
+## -------------------------
+mega.menu.cpu.atmega1280=ATmega1280
+
+mega.menu.cpu.atmega1280.upload.protocol=arduino
+mega.menu.cpu.atmega1280.upload.maximum_size=126976
+mega.menu.cpu.atmega1280.upload.speed=57600
+
+mega.menu.cpu.atmega1280.bootloader.high_fuses=0xDA
+mega.menu.cpu.atmega1280.bootloader.extended_fuses=0xF5
+mega.menu.cpu.atmega1280.bootloader.file=atmega/ATmegaBOOT_168_atmega1280.hex
+
+mega.menu.cpu.atmega1280.build.mcu=atmega1280
+mega.menu.cpu.atmega1280.build.board=AVR_MEGA
+
+##############################################################
+
+megaADK.name=Arduino Mega ADK
+
+megaADK.vid.0=0x2341
+megaADK.pid.0=0x003f
+megaADK.vid.1=0x2341
+megaADK.pid.1=0x0044
+
+megaADK.upload.tool=avrdude
+megaADK.upload.protocol=wiring
+megaADK.upload.maximum_size=258048
+megaADK.upload.maximum_data_size=8192
+megaADK.upload.speed=115200
+
+megaADK.bootloader.tool=avrdude
+megaADK.bootloader.low_fuses=0xFF
+megaADK.bootloader.high_fuses=0xD8
+megaADK.bootloader.extended_fuses=0xFD
+megaADK.bootloader.file=stk500v2/stk500boot_v2_mega2560.hex
+megaADK.bootloader.unlock_bits=0x3F
+megaADK.bootloader.lock_bits=0x0F
+
+megaADK.build.mcu=atmega2560
+megaADK.build.f_cpu=16000000L
+megaADK.build.board=AVR_ADK
+megaADK.build.core=arduino
+megaADK.build.variant=mega
 
 ##############################################################
 
 leonardo.name=Arduino Leonardo
+leonardo.vid.0=0x2341
+leonardo.pid.0=0x0036
+leonardo.vid.1=0x2341
+leonardo.pid.1=0x8036
 leonardo.upload.tool=avrdude
 leonardo.upload.protocol=avr109
 leonardo.upload.maximum_size=28672
@@ -188,10 +268,11 @@ leonardo.build.mcu=atmega32u4
 leonardo.build.f_cpu=16000000L
 leonardo.build.vid=0x2341
 leonardo.build.pid=0x8036
+leonardo.build.usb_product="Arduino Leonardo"
 leonardo.build.board=AVR_LEONARDO
 leonardo.build.core=arduino
 leonardo.build.variant=leonardo
-leonardo.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+leonardo.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
@@ -217,14 +298,19 @@ micro.build.mcu=atmega32u4
 micro.build.f_cpu=16000000L
 micro.build.vid=0x2341
 micro.build.pid=0x8037
+micro.build.usb_product="Arduino Micro"
 micro.build.board=AVR_MICRO
 micro.build.core=arduino
 micro.build.variant=micro
-micro.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+micro.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
 esplora.name=Arduino Esplora
+esplora.vid.0=0x2341
+esplora.pid.0=0x003c
+esplora.vid.1=0x2341
+esplora.pid.1=0x803c
 esplora.upload.tool=avrdude
 esplora.upload.protocol=avr109
 esplora.upload.maximum_size=28672
@@ -246,10 +332,11 @@ esplora.build.mcu=atmega32u4
 esplora.build.f_cpu=16000000L
 esplora.build.vid=0x2341
 esplora.build.pid=0x803c
+esplora.build.usb_product="Arduino Esplora"
 esplora.build.board=AVR_ESPLORA
 esplora.build.core=arduino
 esplora.build.variant=leonardo
-esplora.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+esplora.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
@@ -314,7 +401,7 @@ ethernet.bootloader.file=optiboot/optiboot_atmega328.hex
 ethernet.bootloader.unlock_bits=0x3F
 ethernet.bootloader.lock_bits=0x0F
 
-ethernet.build.variant=standard
+ethernet.build.variant=ethernet
 ethernet.build.mcu=atmega328p
 ethernet.build.f_cpu=16000000L
 ethernet.build.board=AVR_ETHERNET
@@ -412,10 +499,11 @@ LilyPadUSB.build.mcu=atmega32u4
 LilyPadUSB.build.f_cpu=8000000L
 LilyPadUSB.build.vid=0x1B4F
 LilyPadUSB.build.pid=0x9208
+LilyPadUSB.build.usb_product="LilyPad USB"
 LilyPadUSB.build.board=AVR_LILYPAD_USB
 LilyPadUSB.build.core=arduino
 LilyPadUSB.build.variant=leonardo
-LilyPadUSB.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+LilyPadUSB.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
@@ -579,6 +667,7 @@ atmegang.menu.cpu.atmega168.build.mcu=atmega168
 atmegang.menu.cpu.atmega8=ATmega8
 
 atmegang.menu.cpu.atmega8.upload.maximum_size=7168
+atmegang.menu.cpu.atmega8.upload.maximum_data_size=1024
 
 atmegang.menu.cpu.atmega8.bootloader.low_fuses=0xdf
 atmegang.menu.cpu.atmega8.bootloader.high_fuses=0xca
@@ -592,7 +681,7 @@ robotControl.name=Arduino Robot Control
 robotControl.upload.tool=avrdude
 robotControl.upload.protocol=avr109
 robotControl.upload.maximum_size=28672
-robotControl.upload.data_size=2560
+robotControl.upload.maximum_data_size=2560
 robotControl.upload.speed=57600
 robotControl.upload.disable_flushing=true
 robotControl.upload.use_1200bps_touch=true
@@ -610,10 +699,11 @@ robotControl.build.mcu=atmega32u4
 robotControl.build.f_cpu=16000000L
 robotControl.build.vid=0x2341
 robotControl.build.pid=0x8038
+robotControl.build.usb_product="Robot Control"
 robotControl.build.board=AVR_ROBOT_CONTROL
-robotControl.build.core=robot
+robotControl.build.core=arduino
 robotControl.build.variant=robot_control
-robotControl.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+robotControl.build.extra_flags={build.usb_flags}
 
 ##############################################################
 
@@ -621,7 +711,7 @@ robotMotor.name=Arduino Robot Motor
 robotMotor.upload.tool=avrdude
 robotMotor.upload.protocol=avr109
 robotMotor.upload.maximum_size=28672
-robotMotor.upload.data_size=2560
+robotMotor.upload.maximum_data_size=2560
 robotMotor.upload.speed=57600
 robotMotor.upload.disable_flushing=true
 robotMotor.upload.use_1200bps_touch=true
@@ -639,8 +729,9 @@ robotMotor.build.mcu=atmega32u4
 robotMotor.build.f_cpu=16000000L
 robotMotor.build.vid=0x2341
 robotMotor.build.pid=0x8039
+robotMotor.build.usb_product="Robot Motor"
 robotMotor.build.board=AVR_ROBOT_MOTOR
-robotMotor.build.core=robot
+robotMotor.build.core=arduino
 robotMotor.build.variant=robot_motor
-robotMotor.build.extra_flags=-DUSB_VID={build.vid} -DUSB_PID={build.pid}
+robotMotor.build.extra_flags={build.usb_flags}
 

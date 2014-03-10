@@ -28,15 +28,15 @@ all: arduino_due_x
 arduino_due_x:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Making variant arduino_due_x
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk
-	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk
+#	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk
 	@echo ------------------------------------------------------------------------------------
 
 .PHONY: clean
 clean:
 	@echo ------------------------------------------------------------------------------------
 	@echo --- Cleaning variant arduino_due_x
-#	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk $@
-	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk $@
+	@$(MAKE) DEBUG=1 $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk $@
+#	@$(MAKE) $(SUBMAKE_OPTIONS) -f libvariant_arduino_due_x.mk $@
 	@echo ------------------------------------------------------------------------------------
 

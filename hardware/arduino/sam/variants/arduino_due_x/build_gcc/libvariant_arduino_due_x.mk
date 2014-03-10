@@ -135,7 +135,7 @@ $(VARIANT): create_output $(OUTPUT_LIB)
 .PHONY: create_output
 create_output:
 	@echo ------------------------------------------------------------------------------------
-	@echo ------------SAM_DUE_BUILD-------------
+	@echo -------------------------
 	@echo --- Preparing variant $(VARIANT) files in $(OUTPUT_PATH) $(OUTPUT_BIN)
 	@echo -------------------------
 #	@echo *$(INCLUDES)

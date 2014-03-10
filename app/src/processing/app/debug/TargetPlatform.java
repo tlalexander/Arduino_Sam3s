@@ -18,8 +18,6 @@
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software Foundation,
  Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
- $Id$
  */
 package processing.app.debug;
 
@@ -44,6 +42,7 @@ public class TargetPlatform {
    * Contains preferences for every defined board
    */
   private Map<String, TargetBoard> boards = new LinkedHashMap<String, TargetBoard>();
+  private TargetBoard defaultBoard;
 
   /**
    * Contains preferences for every defined programmer
@@ -86,10 +85,15 @@ public class TargetPlatform {
       boardsPreferences.remove("menu");
 
       // Create boards
-      for (String id : boardsPreferences.keySet()) {
+      Set<String> boardIDs = boardsPreferences.keySet();
+      for (String id : boardIDs) {
         PreferencesMap preferences = boardsPreferences.get(id);
         TargetBoard board = new TargetBoard(id, preferences, this);
         boards.put(id, board);
+      }
+      if (!boardIDs.isEmpty()) {
+        PreferencesMap preferences = boardsPreferences.get(boardIDs.iterator().next());
+        defaultBoard = new TargetBoard(id, preferences, this);
       }
     } catch (IOException e) {
       throw new TargetPlatformException(format(_("Error loading {0}"),
@@ -156,7 +160,10 @@ public class TargetPlatform {
   }
 
   public TargetBoard getBoard(String boardId) {
-    return boards.get(boardId);
+    if (boards.containsKey(boardId)) {
+      return boards.get(boardId);
+    }
+    return defaultBoard;
   }
 
   public TargetPackage getContainerPackage() {

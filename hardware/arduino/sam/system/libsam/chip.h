@@ -42,9 +42,9 @@
  * Peripherals
  */
 #include "include/adc.h"
-#if (SAM3XA_SERIES) || (SAM3N_SERIES) || (SAM3S_SERIES)
-#include "include/dacc.h"
-#endif // (SAM3XA_SERIES) || (SAM3N_SERIES) || (SAM3S_SERIES)
+#if (SAM3XA_SERIES) || (SAM3N_SERIES)
+//#include "include/dacc.h"
+#endif // (SAM3XA_SERIES) || (SAM3N_SERIES)
 
 #include "include/interrupt_sam_nvic.h"
 #include "include/efc.h"

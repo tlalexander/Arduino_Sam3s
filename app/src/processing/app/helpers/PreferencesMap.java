@@ -18,8 +18,6 @@
  You should have received a copy of the GNU General Public License
  along with this program; if not, write to the Free Software Foundation,
  Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
- $Id$
  */
 package processing.app.helpers;
 
@@ -245,8 +243,57 @@ public class PreferencesMap extends LinkedHashMap<String, String> {
     return res;
   }
 
+  /**
+   * Returns the value to which the specified key is mapped, or throws a
+   * PreferencesMapException if not found
+   * 
+   * @param k
+   *          the key whose associated value is to be returned
+   * @return the value to which the specified key is mapped
+   * @throws PreferencesMapException
+   */
+  public String getOrExcept(String k) throws PreferencesMapException {
+    String r = get(k);
+    if (r == null)
+      throw new PreferencesMapException(k);
+    return r;
+  }
+
   @Override
   public String toString() {
     return toString("");
+  }
+
+  /**
+   * Creates a new File instance by converting the value of the key into an
+   * abstract pathname. If the the given key doesn't exists or his value is the
+   * empty string, the result is <b>null</b>.
+   * 
+   * @param key
+   * @return
+   */
+  public File getFile(String key) {
+    if (!containsKey(key))
+      return null;
+    String path = get(key).trim();
+    if (path.length() == 0)
+      return null;
+    return new File(path);
+  }
+
+  /**
+   * Creates a new File instance by converting the value of the key into an
+   * abstract pathname with the specified sub folder. If the the given key
+   * doesn't exists or his value is the empty string, the result is <b>null</b>.
+   * 
+   * @param key
+   * @param subFolder
+   * @return
+   */
+  public File getFile(String key, String subFolder) {
+    File file = getFile(key);
+    if (file == null)
+      return null;
+    return new File(file, subFolder);
   }
 }

@@ -149,6 +149,10 @@ void Serial_::begin(uint32_t baud_count)
 {
 }
 
+void Serial_::begin(uint32_t baud_count, uint8_t config)
+{
+}
+
 void Serial_::end(void)
 {
 }
@@ -175,9 +179,7 @@ void Serial_::accept(void)
 	while (i != buffer->tail) {
 		uint32_t c;
 		if (!USBD_Available(CDC_RX)) {
-#if DUE==1
 			udd_ack_fifocon(CDC_RX);
-#endif
 			break;
 		}
 		c = USBD_Recv(CDC_RX);

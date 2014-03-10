@@ -20,8 +20,6 @@
   You should have received a copy of the GNU General Public License
   along with this program; if not, write to the Free Software Foundation,
   Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-  
-  $Id$
 */
 
 package processing.app.debug;
@@ -30,6 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import processing.app.helpers.PreferencesMap;
+import processing.app.helpers.ProcessUtils;
 import processing.app.helpers.StringReplacer;
 
 public class Sizer implements MessageConsumer {
@@ -67,7 +66,7 @@ public class Sizer implements MessageConsumer {
       textSize = -1;
       dataSize = -1;
       eepromSize = -1;
-      Process process = Runtime.getRuntime().exec(cmd);
+      Process process = ProcessUtils.exec(cmd);
       MessageSiphon in = new MessageSiphon(process.getInputStream(), this);
       MessageSiphon err = new MessageSiphon(process.getErrorStream(), this);
 

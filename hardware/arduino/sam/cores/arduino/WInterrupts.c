@@ -53,14 +53,11 @@ static void __initialize() {
 	NVIC_SetPriority(PIOC_IRQn, 0);
 	NVIC_EnableIRQ(PIOC_IRQn);
 
-#if DUE==1
 	pmc_enable_periph_clk(ID_PIOD);
 	NVIC_DisableIRQ(PIOD_IRQn);
 	NVIC_ClearPendingIRQ(PIOD_IRQn);
 	NVIC_SetPriority(PIOD_IRQn, 0);
 	NVIC_EnableIRQ(PIOD_IRQn);
-#endif
-	
 }
 
 
@@ -88,10 +85,8 @@ void attachInterrupt(uint32_t pin, void (*callback)(void), uint32_t mode)
 		callbacksPioB[pos] = callback;
 	if (pio == PIOC)
 		callbacksPioC[pos] = callback;
-#if DUE==1
 	if (pio == PIOD)
 		callbacksPioD[pos] = callback;
-#endif
 
 	// Configure the interrupt mode
 	if (mode == CHANGE) {
@@ -171,7 +166,6 @@ void PIOC_Handler(void) {
 	}
 }
 
-#if DUE==1
 void PIOD_Handler(void) {
 	uint32_t isr = PIOD->PIO_ISR;
 	uint32_t i;
@@ -182,7 +176,6 @@ void PIOD_Handler(void) {
 			callbacksPioD[i]();
 	}
 }
-#endif
 
 #ifdef __cplusplus
 }

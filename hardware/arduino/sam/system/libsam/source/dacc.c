@@ -37,7 +37,7 @@ extern "C" {
 /**INDENT-ON**/
 /// @endcond
 
-#if (SAM3XA_SERIES) || (SAM3N_SERIES) || (SAM3S_SERIES)
+#if (SAM3XA_SERIES) || (SAM3N_SERIES)
 
 /**
  * \defgroup sam_drivers_dacc_group Digital-to-Analog Converter Controller (DACC)
